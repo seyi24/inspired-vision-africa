@@ -4,13 +4,11 @@
     <section class="pq-breadcrumb-style-1 wow fadeIn">
         <div class="container-fluid">
             <div class="pq-breadcrumb">
-                <h1 class="pq-breadcrumb-title text-center">About Us</h1>
+                <h1 class="pq-breadcrumb-title text-center"></h1>
                 {{-- <img src="images/stander/breadcrumb/portfolio_img_010-600x650.webp" alt="image"> --}}
             </div>
         </div>
     </section>
-
-
     <section>
         <div class="container">
             <div class="pq-designer-content-aboutus-section-wrapper">

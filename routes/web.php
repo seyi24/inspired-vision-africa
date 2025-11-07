@@ -13,6 +13,10 @@ Route::get('/about', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/speaker', function () {
+    return view('speaker');
+});
 Route::get('/contact', function () {
     return view('contact');
 });

@@ -1,21 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-    {{-- <section class="pq-breadcrumb-style-1 wow fadeIn">
+    <section class="pq-breadcrumb-style-1 wow fadeIn">
         <div class="container-fluid">
             <div class="pq-breadcrumb">
-                <h1 class="pq-breadcrumb-title text-center">IMAGE GALLERY</h1>
-                <img src="images/stander/breadcrumb/portfolio_img_010-600x650.webp" alt="">
+                <h1 class="pq-breadcrumb-title text-center"></h1>
+                {{-- <img src="images/stander/breadcrumb/portfolio_img_010-600x650.webp" alt=""> --}}
             </div>
         </div>
-    </section> --}}
+    </section>
 
     <section class="pq-gallery-section">
         <div class="container">
             <div class="pq-section-title text-center">
                 <div class="pq-title">
                     <h5 class="pq-title-heading">HIGHLIGHTS FROM AN EPIC EVENT
-                        <span class="pq-title-last-word"> JOURNEY
+                        <span class="pq-title-last-word"> GALLERY
                             <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
                                 <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
                                     vector-effect="non-scaling-stroke" stroke-dasharray="400">
@@ -26,7 +26,7 @@
                     </h5>
                 </div>
             </div>
-            <div class="pq-image-gallery-block">
+            <div class="pq-image-gallery-block ">
                 <div class="gallery wow fadeInUp">
                     {{-- <div class="pq-gallry-image-left-wrapper"> --}}
                     <div>

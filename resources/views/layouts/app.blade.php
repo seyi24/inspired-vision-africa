@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts/flaticons/flaticon_conference.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}">
-  
+
 </head>
 
 <body>
@@ -50,15 +50,15 @@
             <div class="pq-sidebars">
                 <div class="widget">
                     <div class="pq-block-group">
-                        <div class="pq-block-group__inner-container ">
+                        <div class="pq-block-group__inner-container">
                             <h2 class="pq-block-heading">About Us</h2>
-
-                            <p>David has a deep expertise in natural language processing and is about turning data into
-                                insights.</p>
-
+                            <p><strong>Inspire Vision Africa</strong> is dedicated to equipping young Africans with the
+                                knowledge, skills, and digital tools they need to thrive in a fast-changing world. We
+                                empower youth to rise above limitations, embrace their purpose, and unlock the greatness
+                                within.</p>
                             <figure class="pq-block-image size-large">
                                 <img decoding="async" src="{{ asset('images/sidebar/blog_img_006-1024x585.webp') }}"
-                                    alt="img" class="wp-image-2559">
+                                    alt="Inspire Vision Africa Youth Conference" class="wp-image-2559">
                             </figure>
                         </div>
                     </div>
@@ -116,8 +116,9 @@
         <div class="pq-bottom-header pq-header-page-3 ">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand"  href="{{ url('/') }}">
-                        <img src="{{ asset('images/logo/INSPIRED-AFRICA white.png') }}" alt="nav-logo" class="nav-logo">
+                    <a class="navbar-brand" href="{{ url('/') }}">
+                        <img src="{{ asset('images/logo/INSPIRED-AFRICA white.png') }}" alt="nav-logo"
+                            class="nav-logo">
                     </a>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="pq-menu-contain">
@@ -130,7 +131,7 @@
                                     <a href="{{ url('/about') }}">About Us </i></a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="#">Speakers </i></a>
+                                    <a href="{{ url('/speaker') }}">Speakers </i></a>
                                 </li>
                                 <li class="menu-item">
                                     <a href="{{ url('/gallery') }}"> Gallery </i></a>
@@ -210,7 +211,7 @@
             </div>
         </div>
     </header>
-    
+
 
     @yield('content')
 
@@ -266,8 +267,7 @@
 
                     <div class="mid-footer-wrapper-left">
                         <div class="mid-image-div">
-                            <img src="images/logo/INSPIRED-AFRICA white.png" alt="img" class="pq-footer-logo"
-                               >
+                            <img src="images/logo/INSPIRED-AFRICA white.png" alt="img" class="pq-footer-logo">
                         </div>
                         <p>Committed to equipping young people with the knowledge, skills, and digital tools they need
                             to thrive in a fast-changing world.</p>
@@ -279,11 +279,11 @@
                             <ul>
                                 <li class="about-list"> <a href="{{ url('/about') }}">About Us</a> </li>
                                 <li class="about-list"> <a href="{{ url('/speakers') }}">Speakers </a></li>
-                                
+
                             </ul>
                             <ul>
-                            <li class="about-list"> <a href="{{ url('/gallery') }}">Gallery</a> </li>
-                         <li class="about-list"> <a href="{{ url('/contact') }}">Contact</a> </li>
+                                <li class="about-list"> <a href="{{ url('/gallery') }}">Gallery</a> </li>
+                                <li class="about-list"> <a href="{{ url('/contact') }}">Contact</a> </li>
                             </ul>
                         </div>
                     </div>
@@ -299,6 +299,8 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
 
                     </div>
                     <span>Copyright ©
