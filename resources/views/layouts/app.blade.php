@@ -14,6 +14,13 @@
     <link rel="stylesheet" href="{{ asset('fonts/themify-icons/themify-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animations.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('rev/css/rs6.css') }}">
+    <link rel="stylesheet" href="{{ asset('rev/fonts/font-awesome/css/font-awesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/helper.css') }}">
+    <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css') }}">
+    <link rel="stylesheet" href="{{ asset('fonts/flaticons/flaticon_conference.css') }}">
+    <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}">
+  
 </head>
 
 <body>
@@ -69,7 +76,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#"><i class=" flaticon-sms"></i><span>info@inspirvisionafrica.com</span></a>
+                        <a href="#"><i class=" flaticon-sms"></i><span>info@inspiredvisionafrica.com</span></a>
                     </li>
                     <li>
                         <div class="pq-icon">
@@ -106,11 +113,11 @@
         </div>
     </div>
     <header class="pq-header-style-1 pq-has-sticky wow fadeIn" id="pq-header">
-        <div class="pq-bottom-header ">
+        <div class="pq-bottom-header pq-header-page-3 ">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="{{ asset('images/logo/INSPIRED-AFRICA.png') }}" alt="nav-logo" class="nav-logo">
+                    <a class="navbar-brand"  href="{{ url('/') }}">
+                        <img src="{{ asset('images/logo/INSPIRED-AFRICA white.png') }}" alt="nav-logo" class="nav-logo">
                     </a>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="pq-menu-contain">
@@ -203,6 +210,7 @@
             </div>
         </div>
     </header>
+    
 
     @yield('content')
 
@@ -258,8 +266,8 @@
 
                     <div class="mid-footer-wrapper-left">
                         <div class="mid-image-div">
-                            <img src="images/logo/INSPIRED-AFRICA.png" alt="img" class="pq-footer-logo"
-                                style ="filter: brightness(0) invert(1);">
+                            <img src="images/logo/INSPIRED-AFRICA white.png" alt="img" class="pq-footer-logo"
+                               >
                         </div>
                         <p>Committed to equipping young people with the knowledge, skills, and digital tools they need
                             to thrive in a fast-changing world.</p>
@@ -269,13 +277,13 @@
                         {{-- <h5>ABOUT CONFERENCE</h5> --}}
                         <div class="mid-footer-about-list">
                             <ul>
-                                <li class="about-list"> <a href="about-us.html">About Us</a> </li>
-                                <li class="about-list"> <a href="speakers-detail.html">Speakers </a></li>
+                                <li class="about-list"> <a href="{{ url('/about') }}">About Us</a> </li>
+                                <li class="about-list"> <a href="{{ url('/speakers') }}">Speakers </a></li>
                                 
                             </ul>
                             <ul>
-                            <li class="about-list"> <a href="schedule.html">Gallery</a> </li>
-                         <li class="about-list"> <a href="faq.html">Contact</a> </li>
+                            <li class="about-list"> <a href="{{ url('/gallery') }}">Gallery</a> </li>
+                         <li class="about-list"> <a href="{{ url('/contact') }}">Contact</a> </li>
                             </ul>
                         </div>
                     </div>
@@ -310,6 +318,9 @@
     <script src="{{ asset('js/wow.min.js') }}"></script>
     <script src="{{ asset('js/anime.min.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
+    <script src="{{ asset('rev/js/rbtools.min.js') }}"></script>
+    <script src="{{ asset('rev/js/rs6.min.js') }}"></script>
+    <script src="{{ asset('js/rev-custom.js') }}"></script>
 </body>
 <script>
     'undefined' === typeof _trfq || (window._trfq = []);

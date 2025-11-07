@@ -29,13 +29,13 @@
             <div class="pq-image-gallery-block">
                 <div class="gallery wow fadeInUp">
                     {{-- <div class="pq-gallry-image-left-wrapper"> --}}
-                    <div class="pq-gallery-image-div">
+                    <div>
                         <a href="images/gallery/image_gallery_002.webp"><img src="images/gallery/image_gallery_002.webp"
                                 alt="">
                         </a>
                     </div>
-                    <div class="pq-gallery-image-div">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xbu4fP2ZH_o"
+                    <div>
+                        <iframe width="440" height="290" src="https://www.youtube.com/embed/Xbu4fP2ZH_o"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; 
                             encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -43,11 +43,11 @@
                         </iframe>
                     </div>
 
-                    <div class="pq-gallery-image-div">
+                    <div>
                         <a href="images/gallery/image_gallery_003.webp"><img src="images/gallery/image_gallery_003.webp"
                                 alt=""></a>
                     </div>
-                    <div class="pq-gallery-image-div">
+                    <div>
                         <a href="images/gallery/image_gallery_003.webp"><img src="images/gallery/image_gallery_003.webp"
                                 alt=""></a>
                     </div>

@@ -101,6 +101,7 @@ body {
   line-height: 1.8;
   color: var(--secondary-color);
   overflow-x: hidden;
+
 }
 
 h1,
@@ -3786,7 +3787,7 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand img {
 }
 /*============ Header Navbar Bar ============*/
 header#pq-header .pq-bottom-header {
-  min-height: 100px;
+  min-height: 10px;
 }
 
 header#pq-header .pq-bottom-header .navbar {
