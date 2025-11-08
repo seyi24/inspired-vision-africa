@@ -24,8 +24,8 @@
                                     <h3 class="pq-contect-box-description-title">
                                         Call Us
                                     </h3>
-                                    <a href="#" class="pq-contact-number">
-                                        +225 unavailable
+                                    <a href="tel:+2250141484037" class="pq-contact-number">
+                                        +225 0141484037
                                     </a>
                                 </div>
                             </div>
@@ -37,9 +37,10 @@
                                     <h3 class="pq-contect-box-description-title">
                                         Write To Us
                                     </h3>
-                                    <a href="#" class="pq-contact-email">
+                                    <a href="mailto:Info@inspirvisionafrica.com" class="pq-contact-email">
                                         Info@inspirvisionafrica.com
                                     </a>
+
                                 </div>
                             </div>
                             <div class="pq-image-box-div">
@@ -64,45 +65,61 @@
                             </div>
                         </div>
                         <div class="pq-contact-form">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="pq-form-input-div">
-                                        <input type="text" placeholder="Your Name">
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                            @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
+                            <form action="{{ route('contact.submit') }}" method="POST">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="pq-form-input-div">
+                                            <input type="text" name="name" placeholder="Your Name" required
+                                                value="{{ old('name') }}">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="pq-form-input-div">
+                                            <input type="email" name="email" placeholder="Your Email" required
+                                                value="{{ old('email') }}">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="pq-form-input-div">
+                                            <input type="text" name="subject" placeholder="Subject" required
+                                                value="{{ old('subject') }}">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="pq-form-input-div">
+                                            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required>{{ old('message') }}</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="pq-btn-container">
+                                            <button type="submit" class="pq-button pq-button-flat">
+                                                <span>send message</span>
+                                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
+                                                    preserveAspectRatio="none">
+                                                    <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
+                                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
+                                                </svg>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="pq-form-input-div">
-                                        <input type="email" placeholder="Your Email">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="pq-form-input-div">
-                                        <input type="tel" placeholder="Phone Number">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="pq-form-input-div">
-                                        <input type="text" placeholder="Select Subjct">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="pq-form-input-div">
-                                        <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="pq-btn-container">
-                                        <a href="#" class="pq-button pq-button-flat">
-                                            <span>send message</span>
-                                            <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                                preserveAspectRatio="none">
-                                                <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
-                                                    vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>

@@ -4,8 +4,7 @@
    <section class="pq-breadcrumb-style-1 wow fadeIn">
         <div class="container-fluid">
             <div class="pq-breadcrumb">
-                <h1 class="pq-breadcrumb-title text-center">Speakers</h1>
-                {{-- <img src="images/stander/breadcrumb/portfolio_img_010-600x650.webp" alt=""> --}}
+                <h1 class="pq-breadcrumb-title text-center"></h1>
             </div>
         </div>
     </section>
@@ -30,59 +29,14 @@
             <div class="pq-team-2-list wow fadeInUp text-left">
                 <div class="pq-team pq-style-2 pq-item-list">
                     <div class="pq-team-info">
-                        <h5 class="pq-member-name">Christian Grant</h5>
-                        <span class="pq-team-designation">design director</span>
+                        <h5 class="pq-member-name">Afolabi Muhammad</h5>
+                        <span class="pq-team-designation">Founder of Smartsaver</span>
                         <div class="pq-team-media">
-                            <img decoding="async" src="images/page2/team/team_002.webp" alt="team-image">
+                            <img decoding="async" src="images/speaker/1.jpg" alt="team-image">
                         </div>
                     </div>
                 </div>
-                <div class="pq-team pq-style-2 pq-item-list">
-                    <div class="pq-team-info">
-                        <h5 class="pq-member-name">Andrew Simon</h5>
-                        <span class="pq-team-designation">Manager Operator</span>
-                        <div class="pq-team-media">
-                            <img decoding="async" src="images/page2/team/team_004.webp" alt="team-image">
-                        </div>
-                    </div>
-                </div>
-                <div class="pq-team pq-style-2 pq-item-list pq-active">
-                    <div class="pq-team-info">
-                        <h5 class="pq-member-name">James Milner</h5>
-
-                        <span class="pq-team-designation">founder &amp; ceo</span>
-                        <div class="pq-team-media">
-                            <img decoding="async" src="images/page2/team/team_005.webp" alt="team-image">
-                        </div>
-                    </div>
-                </div>
-                <div class="pq-team pq-style-2 pq-item-list">
-                    <div class="pq-team-info">
-                        <h5 class="pq-member-name">Devon Lane</h5>
-                        <span class="pq-team-designation">system engineer</span>
-                        <div class="pq-team-media">
-                            <img decoding="async" src="images/page2/team/team_006.webp" alt="team-image">
-                        </div>
-                    </div>
-                </div>
-                <div class="pq-team pq-style-2 pq-item-list">
-                    <div class="pq-team-info">
-                        <h5 class="pq-member-name">Kaylor Navas</h5>
-                        <span class="pq-team-designation">chef master</span>
-                        <div class="pq-team-media">
-                            <img decoding="async" src="images/page2/team/team_008.webp" alt="team-image">
-                        </div>
-                    </div>
-                </div>
-                <div class="pq-team pq-style-2 pq-item-list">
-                    <div class="pq-team-info">
-                        <h5 class="pq-member-name">Carlo Ancelotti</h5>
-                        <span class="pq-team-designation">founder &amp; ceo</span>
-                        <div class="pq-team-media">
-                            <img decoding="async" src="images/page2/team/team_002.webp" alt="team-image">
-                        </div>
-                    </div>
-                </div>
+             
             </div>
             {{-- <div class="pq-btn-container text-center ">
                 <a href="#" class="pq-button pq-button-flat">

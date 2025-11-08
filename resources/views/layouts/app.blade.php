@@ -8,18 +8,19 @@
     <title>Inspired Vision Africa - Empowering Africa's Youth to learn, Create and Lead</title>
     <link rel="shortcut icon" href="{{ asset('images/logo/INSPIRED-AFRICA-single.png') }}" type="image/x-icon">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+     <link rel="stylesheet" href="{{ asset('rev/css/rs6.css') }}">
+    <link rel="stylesheet" href="{{ asset('rev/fonts/font-awesome/css/font-awesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/helper.css') }}">
+    <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css') }}">
+    <link rel="stylesheet" href="{{ asset('fonts/flaticons/flaticon_conference.css') }}">
+    <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts/flaticons/flaticon_conference.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('fonts/themify-icons/themify-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animations.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('rev/css/rs6.css') }}">
-    <link rel="stylesheet" href="{{ asset('rev/fonts/font-awesome/css/font-awesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/helper.css') }}">
-    <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css') }}">
-    <link rel="stylesheet" href="{{ asset('fonts/flaticons/flaticon_conference.css') }}">
-    <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}">
+   
 
 </head>
 
@@ -299,7 +300,7 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
 
 
                     </div>
