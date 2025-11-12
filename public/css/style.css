@@ -60,7 +60,7 @@ Fonts
 Moz Selectio
 ================================================*/
 :root {
-  --primary-color: #fa7800;
+  --primary-color: linear-gradient(135deg, #ff3a00, #ffc000);
   --dark-color: #000000;
   --secondary-color: #666666;
   --grey-color: #F4F4F4;

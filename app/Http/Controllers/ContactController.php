@@ -18,7 +18,7 @@ class ContactController extends Controller
         ]);
 
         // Send email
-        Mail::to('Info@inspirvisionafrica.com')->send(new ContactFormMail($validated));
+        Mail::to('inspiredvisionafrica@gmail.com')->send(new ContactFormMail($validated));
 
         return back()->with('success', 'Thank you for your message. We will contact you soon!');
     }

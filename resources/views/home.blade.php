@@ -10,31 +10,38 @@
                 <rs-slides style="overflow: hidden; position: absolute;">
                     <rs-slide style="position: absolute;" data-key="rs-6" data-title="Slide" data-in="o:0;sx:0.6;sy:0.6;"
                         data-out="o:0;sx:1.6;sy:1.6;">
-                        <img src="images/main/5.jpg" alt="" title="h3_banner_001" width="1853" height="950"
+                        <img src="images/main/6.jpg" alt="" title="h3_banner_001" width="1853" height="950"
                             class="rev-slidebg tp-rs-img" data-no-retina>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-6-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
                             data-dim="w:auto,394px,414px,390px;" data-rsp_bd="off" data-frame_0="o:1;"
                             data-frame_0_chars="d:5;o:0;rX:90deg;oZ:-50;" data-frame_1="st:1000;sp:1000;sR:1000;"
                             data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;sR:6400;"
-                            style="z-index:8;font-family:'Oswald';text-transform:uppercase;">Unleash
-                        </rs-layer>
+                            style="z-index:12;font-family:'Oswald';text-transform:uppercase;color:#fff;text-shadow:0 6px 20px rgba(0,0,0,0.6);">
+                            Unleash</rs-layer>
+
+
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-6-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
                             data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;"
                             data-frame_1="st:1200;sp:1200;sR:1200;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
                             data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:5600;"
-                            style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness
+                            style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness<br><span
+                                style="display:block;font-size:0.5em;">Conference 2025</span>
                         </rs-layer>
+
+
+
+
                         <!--
-                      -->
-                        {{-- 
+                                          -->
+                        {{--                         
                <rs-layer id="slider-4-slide-6-layer-2" data-type="image" data-rsp_ch="on"
                   data-xy="x:l,l,l,c;xo:40px,58px,15px,480px;y:m;yo:25px,5px,32px,-28px;"
                   data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
@@ -46,7 +53,7 @@
                </rs-layer>
                --}}
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-6-layer-3" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:43px,35px,26px,16px;yo:576px,475px,360px,222px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -56,7 +63,7 @@
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-6-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -64,8 +71,8 @@
                             data-frame_999="o:0;st:w;sR:6300;"
                             data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:0px,0px,0px,0px;e:power1.inOut;"
                             style="z-index:11;background-color:rgba(0,0,0,0);font-family:'Roboto';">
-                            <a class="pq-button pq-button-flat" href="event-grid.html">
-                                <span class="text">1st Edition</span>
+                            <a class="pq-button pq-button-flat" href="https://bit.ly/InspiredVisionAfricaReg">
+                                <span class="text">Registration</span>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
                                     <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
@@ -75,7 +82,7 @@
                             </a>
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-6-layer-5" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:50px,41px,31px,19px;yo:50px,41px,31px,19px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -85,15 +92,16 @@
                             data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;bri:120%;"
                             style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Roboto';">
                         </rs-layer>
+
                         <!--
-                      -->
+                                          -->
                     </rs-slide>
                     <rs-slide style="position: absolute;" data-key="rs-11" data-title="Slide" data-in="o:0;sx:0.6;sy:0.6;"
                         data-out="o:0;sx:1.6;sy:1.6;">
-                        <img src="images/main/4.jpg" alt="" title="h3_rev_banner_002" width="2560"
+                        <img src="images/main/5.jpg" alt="" title="h3_rev_banner_002" width="2560"
                             height="1312" class="rev-slidebg tp-rs-img" data-no-retina>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-11-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
@@ -103,17 +111,19 @@
                             style="z-index:8;font-family:'Oswald';text-transform:uppercase;">Unleash
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-11-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
                             data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;"
                             data-frame_1="st:1200;sp:1200;sR:1200;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
                             data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:5600;"
-                            style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness
+                            style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness<br><span
+                                style="display:block;font-size:0.5em;">Conference 2025</span>
                         </rs-layer>
+
                         <!--
-                      -->
+                                          -->
                         {{-- 
                <rs-layer id="slider-4-slide-11-layer-2" data-type="image" data-rsp_ch="on"
                   data-xy="x:l,l,l,c;xo:40px,58px,15px,480px;y:m;yo:25px,5px,32px,-28px;"
@@ -127,7 +137,7 @@
                </rs-layer>
                --}}
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-11-layer-3" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:43px,35px,26px,16px;yo:576px,475px,360px,222px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -137,7 +147,7 @@
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-11-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -145,8 +155,8 @@
                             data-frame_999="o:0;st:w;sR:6300;"
                             data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:0px,0px,0px,0px;e:power1.inOut;"
                             style="z-index:11;background-color:rgba(0,0,0,0);font-family:'Roboto';">
-                            <a class="pq-button pq-button-flat" href="event-grid.html">
-                                <span class="text">1st Edition</span>
+                            <a class="pq-button pq-button-flat" href="https://bit.ly/InspiredVisionAfricaReg">
+                                <span class="text">Registration</span>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
                                     <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
@@ -156,7 +166,7 @@
                             </a>
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-11-layer-5" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:50px,41px,31px,19px;yo:50px,41px,31px,19px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -167,14 +177,14 @@
                             style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Roboto';">
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                     </rs-slide>
                     <rs-slide style="position: absolute;" data-key="rs-12" data-title="Slide"
                         data-in="o:0;sx:0.6;sy:0.6;" data-out="o:0;sx:1.6;sy:1.6;">
-                        <img src="images/main/6.jpg" alt="" title="main" width="2560" height="1312"
+                        <img src="images/main/4.jpg" alt="" title="main" width="2560" height="1312"
                             class="rev-slidebg tp-rs-img" data-no-retina>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-12-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
@@ -184,7 +194,7 @@
                             style="z-index:8;font-family:'Oswald';text-transform:uppercase;">Unleash
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-12-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
@@ -194,7 +204,7 @@
                             style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                         {{-- 
                <rs-layer id="slider-4-slide-12-layer-2" data-type="image" data-rsp_ch="on"
                   data-xy="x:l,l,l,c;xo:40px,58px,15px,480px;y:m;yo:25px,5px,32px,-28px;"
@@ -208,7 +218,7 @@
                </rs-layer>
                --}}
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-12-layer-3" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:43px,35px,26px,16px;yo:576px,475px,360px,222px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -218,7 +228,7 @@
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                         <rs-layer id="slider-4-slide-12-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -226,8 +236,8 @@
                             data-frame_999="o:0;st:w;sR:6300;"
                             data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:0px,0px,0px,0px;e:power1.inOut;"
                             style="z-index:11;background-color:rgba(0,0,0,0);font-family:'Roboto';">
-                            <a class="pq-button pq-button-flat" href="event-grid.html">
-                                <span class="text">1st Edition</span>
+                            <a class="pq-button pq-button-flat" href="https://bit.ly/InspiredVisionAfricaReg">
+                                <span class="text">Registration</span>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
                                     <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
@@ -237,18 +247,18 @@
                             </a>
                         </rs-layer>
                         <!--
-                      -->
-                        <rs-layer id="slider-4-slide-12-layer-5" class="rev-btn" data-type="button" data-rsp_ch="on"
-                            data-xy="xo:50px,41px,31px,19px;yo:50px,41px,31px,19px;"
-                            data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
-                            data-padding="r:25,21,16,10;l:25,21,16,10;"
-                            data-border="bos:solid;boc:rgba(255,255,255,0.35);bow:1px,1px,1px,1px;"
-                            data-frame_999="o:0;st:w;sR:8700;"
-                            data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;bri:120%;"
-                            style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Roboto';">
+                                          -->
+                        <rs-layer id="slider-4-slide-12-layer-1" data-type="text" data-rsp_ch="on"
+                            data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
+                            data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
+                            data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;"
+                            data-frame_1="st:1200;sp:1200;sR:1200;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
+                            data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:5600;"
+                            style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness<br><span
+                                style="display:block;font-size:0.5em;">Conference 2025</span>
                         </rs-layer>
                         <!--
-                      -->
+                                          -->
                     </rs-slide>
                 </rs-slides>
             </rs-module>
@@ -277,7 +287,7 @@
 
                 <!-- Counter 2 -->
                 <div class="pq-counter-box mid-counter">
-                    <span class="counts">200</span>
+                    <span class="counts">150</span>
                     <span class="suffix">+</span>
                     <div>YOUNG PARTICIPANTS</div>
                     <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -333,7 +343,7 @@
                             <!-- Event 1 -->
                             <div class="pq-event-box pq-style-1 pq-click-item pq-active">
                                 <div class="pq-event-box-img">
-                                    <img decoding="async" src="images/page1/event/event_img_001.webp"
+                                    <img decoding="async" src="images/main/10.jpg"
                                         alt="Inspire Vision Africa Conference">
                                 </div>
                                 <div class="pq-event-box-info">
@@ -343,7 +353,7 @@
                                             Greatness.”</strong> An empowering experience where young minds come together to
                                         learn, create, and lead with purpose.</p>
                                     <div class="pq-hover-img">
-                                        <img decoding="async" src="images/page1/event/event_img_001.webp"
+                                        <img decoding="async" src="images/main/10.jpg"
                                             alt="Inspire Vision Africa Conference">
                                     </div>
                                 </div>
@@ -351,7 +361,7 @@
                             <!-- Event 2 -->
                             <div class="pq-event-box pq-style-1 pq-click-item">
                                 <div class="pq-event-box-img">
-                                    <img decoding="async" src="images/page1/event/event_img_002.webp" alt="Workshop">
+                                    <img decoding="async" src="images/main/10.jpg" alt="Workshop">
                                 </div>
                                 <div class="pq-event-box-info">
                                     <h5 class="pq-event-box-title">Hands-On Workshops</h5>
@@ -359,14 +369,14 @@
                                         digital, creative, and leadership skills. Learn how to use technology and social
                                         media to build your brand, grow your influence, and make an impact.</p>
                                     <div class="pq-hover-img">
-                                        <img decoding="async" src="images/page1/event/event_img_002.webp" alt="Workshop">
+                                        <img decoding="async" src="images/main/10.jpg" alt="Workshop">
                                     </div>
                                 </div>
                             </div>
                             <!-- Event 3 -->
                             <div class="pq-event-box pq-style-1 pq-click-item">
                                 <div class="pq-event-box-img">
-                                    <img decoding="async" src="images/page1/event/event_img_003.webp" alt="Networking">
+                                    <img decoding="async" src="images/main/10.jpg" alt="Networking">
                                 </div>
                                 <div class="pq-event-box-info">
                                     <h5 class="pq-event-box-title">Connect & Collaborate</h5>
@@ -374,16 +384,14 @@
                                         entrepreneurs, and leaders from across Africa. Build lasting relationships, exchange
                                         ideas, and grow your network for future collaborations and opportunities.</p>
                                     <div class="pq-hover-img">
-                                        <img decoding="async" src="images/page1/event/event_img_003.webp"
-                                            alt="Networking">
+                                        <img decoding="async" src="images/main/10.jpg" alt="Networking">
                                     </div>
                                 </div>
                             </div>
                             <!-- Event 4 -->
                             <div class="pq-event-box pq-style-1 pq-click-item">
                                 <div class="pq-event-box-img">
-                                    <img decoding="async" src="images/page1/event/event_img_004.webp"
-                                        alt="Leadership Session">
+                                    <img decoding="async" src="images/main/10.jpg" alt="Leadership Session">
                                 </div>
                                 <div class="pq-event-box-info">
                                     <h5 class="pq-event-box-title">Leadership & Inspiration</h5>
@@ -391,8 +399,7 @@
                                         shaping Africa’s future. Discover how to rise above challenges, embrace your
                                         purpose, and unleash the greatness within you.</p>
                                     <div class="pq-hover-img">
-                                        <img decoding="async" src="images/page1/event/event_img_004.webp"
-                                            alt="Leadership Session">
+                                        <img decoding="async" src="images/main/10.jpg" alt="Leadership Session">
                                     </div>
                                 </div>
                             </div>
@@ -402,14 +409,12 @@
             </div>
         </div>
     </section>
-    <section class="pq-collaboration-section ">
+    <section class="pq-speaker-team-section">
         <div class="container">
             <div class="pq-section-title text-center">
                 <div class="pq-title">
-                    <h5 class="pq-title-heading">
-                        BUILDING STRENGTH THROUGH TEAM
-                        <span class="pq-title-last-word">
-                            COLLABORATION
+                    <h5 class="pq-title-heading text-center">meet our
+                        <span class="pq-title-last-word">speaker
                             <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                 preserveAspectRatio="none">
                                 <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
@@ -421,131 +426,22 @@
                     </h5>
                 </div>
             </div>
-            <div class="pq-team-wrapper wow fadeInUp">
-                <div class="pq-team-1">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_008.webp" alt="">
-                    </div>
+            <div class="pq-team-2-list wow fadeInUp text-left">
+                <div class="pq-team pq-style-2 pq-item-list">
                     <div class="pq-team-info">
-                        <h5>CHRISTIAN GRANT</h5>
-                        <span>DESIGN DIRECTOR</span>
-                        <div class="pq-team-socials  ">
-                            <a href="index.html">FB</a>
-                            <a href="index.html">YT</a>
-                            <a href="index.html">lN</a>
-                            <a href="index.html">IG</a>
+                        <h5 class="pq-member-name">Afolabi Muhammad</h5>
+                        <span class="pq-team-designation">Founder of Smartsaver</span>
+                        <div class="pq-team-media">
+                            <img decoding="async" src="images/speaker/1.jpg" alt="team-image">
                         </div>
                     </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                        </path>
-                    </svg>
                 </div>
-                <div class="pq-team-2">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_006.webp" alt="">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>ETHAN BLAKE</h5>
-                        <span>VENUE COORDINATOR</span>
-                        <div class="pq-team-socials">
-                            <a href="index.html">FB</a>
-                            <a href="index.html">YT</a>
-                            <a href="index.html">lN</a>
-                            <a href="index.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                        </path>
-                    </svg>
-                </div>
-                <div class="pq-team-1">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_005.webp" alt="">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>NOAH STERLING</h5>
-                        <span>INSIGHT SPEAKER</span>
-                        <div class="pq-team-socials">
-                            <a href="index.html">FB</a>
-                            <a href="index.html">YT</a>
-                            <a href="index.html">lN</a>
-                            <a href="index.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                        </path>
-                    </svg>
-                </div>
-                <div class="pq-team-2">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_002.webp" alt="">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>GAVIN RHODES</h5>
-                        <span>GUEST MANAGER</span>
-                        <div class="pq-team-socials">
-                            <a href="index.html">FB</a>
-                            <a href="index.html">YT</a>
-                            <a href="index-3.html">lN</a>
-                            <a href="index.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                        </path>
-                    </svg>
-                </div>
+
             </div>
-            <div class="pq-team-wrapper2 wow fadeInUp">
-                <div class="pq-team-1">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_001.webp" alt="">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>NOAH BLAKE</h5>
-                        <span>PROGRAM MANAGER</span>
-                        <div class="pq-team-socials">
-                            <a href="index.html">FB</a>
-                            <a href="index.html">YT</a>
-                            <a href="index.html">lN</a>
-                            <a href="index.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
-                    </svg>
-                </div>
-                <div class="pq-team-2">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_004.webp" alt="img">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>JULIAN KNIGHT</h5>
-                        <span>INDUSTRY EXPERT</span>
-                        <div class="pq-team-socials">
-                            <a href="index.html">FB</a>
-                            <a href="index.html">YT</a>
-                            <a href="index.html">lN</a>
-                            <a href="index.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
-                    </svg>
-                </div>
-            </div>
+
         </div>
     </section>
-    <section class="pq-tabs-section ">
+    {{-- <section class="pq-tabs-section ">
         <div class="container">
             <div class="pq-section-title text-center">
                 <div class="pq-title">
@@ -715,205 +611,124 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="pq-portfolio-section ">
+    </section> --}}
+    <section class="pq-portfolio-section">
         <div class="container">
             <div class="pq-section-title text-center">
                 <div class="pq-title">
                     <h5 class="pq-title-heading">
-                        TRANSFORMING IDEAS INTO EVENT
+                        EMPOWERING AFRICA THROUGH
                         <span class="pq-title-last-word">
-                            JOURNEYS
+                            INNOVATION
                             <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                 preserveAspectRatio="none">
                                 <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                    vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                </path>
+                                    vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
                             </svg>
                             <span class="pq-svg-dot"></span>
                         </span>
                     </h5>
                 </div>
+                <p class="text-center mt-3">
+                    At Inspired Vision Africa, we empower youth and entrepreneurs with digital skills,
+                    financial literacy, and creative branding — shaping the next generation of African innovators.
+                </p>
             </div>
+
             <div class="pq-portfoliobox-carousel wow fadeInRight">
                 <div class="owl-carousel owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false"
                     data-desk_num="4" data-lap_num="3" data-tab_num="2" data-mob_num="1" data-mob_sm="1"
                     data-autoplay="true" data-loop="true" data-autowidth="false" data-margin="30">
+
+                    <!-- Brand Identity -->
                     <div class="item">
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
                                     <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_001.webp" alt="img">
+                                        <img src="images/event/71.jpg" alt="Brand Identity">
                                     </a>
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
-                                <span><a href="project-details.html" class="pq-portfolio-tag">Success</a></span>
+                                <span><a href="#" class="pq-portfolio-tag">Creativity</a></span>
                                 <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">
-                                        Unique Concepts
-                                    </a>
+                                    <a href="project-details.html">Brand Identity</a>
                                 </h5>
+                                <p>We help businesses define their essence through impactful visuals, storytelling, and
+                                    design that resonate with their audience.</p>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Digital Skills -->
                     <div class="item">
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
                                     <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_002.webp" alt="img">
+                                        <img src="images/event/71.jpg" alt="Digital Skills">
                                     </a>
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
-                                <span><a href="#" class="pq-portfolio-tag">Success</a></span>
+                                <span><a href="#" class="pq-portfolio-tag">Innovation</a></span>
                                 <h5 class="pq-portfolio-style-1-title">
-                                    <a href="#">
-                                        Successful Events
-                                    </a>
+                                    <a href="project-details.html">Digital Skills</a>
                                 </h5>
+                                <p>Empowering young Africans with hands-on digital training in web design, graphics, and
+                                    emerging technologies for global competitiveness.</p>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Financial Empowerment -->
                     <div class="item">
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
                                     <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_003.webp" alt="img">
+                                        <img src="images/event/71.jpg" alt="Financial Empowerment">
                                     </a>
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
-                                <span><a href="#" class="pq-portfolio-tag">Success</a></span>
+                                <span><a href="#" class="pq-portfolio-tag">Growth</a></span>
                                 <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">
-                                        The AI Peradox
-                                    </a>
+                                    <a href="project-details.html">Financial Empowerment</a>
                                 </h5>
+                                <p>We promote financial literacy and entrepreneurship to help individuals build sustainable
+                                    wealth and economic independence.</p>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Creative Innovation -->
                     <div class="item">
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
                                     <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_004.webp" alt="img">
+                                        <img src="images/event/71.jpg" alt="Creative Innovation">
                                     </a>
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
-                                <span><a href="#" class="pq-portfolio-tag">Success</a></span>
+                                <span><a href="#" class="pq-portfolio-tag">Impact</a></span>
                                 <h5 class="pq-portfolio-style-1-title">
-                                    <a href="#">
-                                        Data Dynamics
-                                    </a>
+                                    <a href="project-details.html">Creative Innovation</a>
                                 </h5>
+                                <p>Bridging creativity and technology to inspire projects that transform communities and
+                                    build lasting impact across Africa.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="pq-portfoliobox">
-                            <div class="pq-portfolio-image-wrapper">
-                                <div class="pq-portfolio-image">
-                                    <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_005.webp" alt="img">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pq-portfolio-info">
-                                <span><a href="project-details.html" class="pq-portfolio-tag">Success</a></span>
-                                <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">
-                                        Creative Events
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pq-portfoliobox">
-                            <div class="pq-portfolio-image-wrapper">
-                                <div class="pq-portfolio-image">
-                                    <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_006.webp" alt="img">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pq-portfolio-info">
-                                <span><a href="project-details.html" class="pq-portfolio-tag">Success</a></span>
-                                <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">
-                                        Digital Evolution
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pq-portfoliobox">
-                            <div class="pq-portfolio-image-wrapper">
-                                <div class="pq-portfolio-image">
-                                    <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_007.webp" alt="img">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pq-portfolio-info">
-                                <span><a href="project-details.html" class="pq-portfolio-tag">Success</a></span>
-                                <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">
-                                        Digital Conference
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pq-portfoliobox">
-                            <div class="pq-portfolio-image-wrapper">
-                                <div class="pq-portfolio-image">
-                                    <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_008.webp" alt="img">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pq-portfolio-info">
-                                <span><a href="project-details.html" class="pq-portfolio-tag">Success</a></span>
-                                <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">
-                                        Big Data to AI
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pq-portfoliobox">
-                            <div class="pq-portfolio-image-wrapper">
-                                <div class="pq-portfolio-image">
-                                    <a href="project-details.html">
-                                        <img src="images/page1/portfolio/portfolio_img_009.webp" alt="img">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pq-portfolio-info">
-                                <span><a href="project-details.html" class="pq-portfolio-tag">Success</a></span>
-                                <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">
-                                        Ethical Algorithms
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </section>
+
     <div class="pq-carousel-brand pq-carousel-brand-page-1 ">
         <div class="container">
             <div class="row  ">
@@ -928,8 +743,7 @@
                             <div class="pq-brand-box">
                                 <a href="#">
                                     <img src="images/partner/INSPIRED-AFRICA.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/INSPIRED-AFRICA.png"alt="img"
-                                        class="pq-client-hover-img">
+                                    <img src="images/partner/INSPIRED-AFRICA.png"alt="img" class="pq-client-hover-img">
                                 </a>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
@@ -940,12 +754,11 @@
                                 <span class="pq-svg-dot"></span>
                             </div>
                         </div>
-                         <div class="item">
+                        <div class="item">
                             <div class="pq-brand-box">
                                 <a href="#">
                                     <img src="images/partner/REMARKCLD.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/REMARKCLD.png"alt="img"
-                                        class="pq-client-hover-img">
+                                    <img src="images/partner/REMARKCLD.png"alt="img" class="pq-client-hover-img">
                                 </a>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
@@ -956,13 +769,13 @@
                                 <span class="pq-svg-dot"></span>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <section class="pq-testimonial-section ">
+    {{-- <section class="pq-testimonial-section ">
         <div class="container  ">
             <div class="pq-testimonial-section-wrapper wow zoomIn">
                 <div class="row align-items-center ">
@@ -986,10 +799,7 @@
                                     </h5>
                                 </div>
                             </div>
-                            <div class="pq-testimonial-team">
-                                <img src="images/page1/testimonial/tesimonial-team/testimonial_team_01.webp"
-                                    alt="img">
-                            </div>
+                          
                         </div>
                     </div>
                     <div class="col-lg-6  ">
@@ -999,13 +809,31 @@
                                 data-autoplay="true" data-loop="true" data-autowidth="false" data-margin="30">
                                 <div class="item">
                                     <div class="pq-testimonial-box">
-                                        <div class="pq-testimonial-star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
+                                       
+                                        <p class="pq-testimonial-discription">
+                                            The event was exceptional, featuring engaging speakers, valuable networking, and
+                                            practical strategies.
+                                            It offered actionable insights to improve marketing campaigns, with sessions
+                                            focused
+                                            on current trends.
+                                        </p>
+                                        <div class="pq-testimonial-info">
+                                            <div class="pq-testimonial-author-details">
+                                                <h5 class="pq-testimonial-author-name">
+                                                    Christian Grant
+                                                </h5>
+                                                <span class="pq-testimonial-author-designation">
+                                                    design director
+                                                </span>
+                                            </div>
                                         </div>
+                                        <div class="pq-quote">
+                                            <i class=" flaticon-quote-1"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="pq-testimonial-box">                                      
                                         <p class="pq-testimonial-discription">
                                             The event was exceptional, featuring engaging speakers, valuable networking, and
                                             practical strategies.
@@ -1030,44 +858,7 @@
                                 </div>
                                 <div class="item">
                                     <div class="pq-testimonial-box">
-                                        <div class="pq-testimonial-star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
-                                        <p class="pq-testimonial-discription">
-                                            The event was exceptional, featuring engaging speakers, valuable networking, and
-                                            practical strategies.
-                                            It offered actionable insights to improve marketing campaigns, with sessions
-                                            focused
-                                            on current trends.
-                                        </p>
-                                        <div class="pq-testimonial-info">
-                                            <div class="pq-testimonial-author-details">
-                                                <h5 class="pq-testimonial-author-name">
-                                                    Christian Grant
-                                                </h5>
-                                                <span class="pq-testimonial-author-designation">
-                                                    design director
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="pq-quote">
-                                            <i class=" flaticon-quote-1"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="pq-testimonial-box">
-                                        <div class="pq-testimonial-star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div>
+                                        
                                         <p class="pq-testimonial-discription">
                                             The event was exceptional, featuring engaging speakers, valuable networking, and
                                             practical strategies.
@@ -1097,5 +888,5 @@
                 <span class="pq-svg-dot wrapper-dot"></span>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

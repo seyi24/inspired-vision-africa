@@ -89,101 +89,6 @@
         </div>
     </section>
 
-       <div class="pq-carousel-brand pq-carousel-brand-page-1 pq-carousel-brand-aboutus ">
-        <div class="container">
-            <div class="row  ">
-                <div class="pq-brand-title-div  text-center pq-top-border">
-                    <span class="pq-brand-title">WE WORKED WITH GLOBAL LARGEST BRANDS</span>
-                </div>
-                <div class="col-lg-12 ">
-                    <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="5"
-                        data-lap_num="4" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true"
-                        data-loop="true" data-autowidth="false" data-margin="30">
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_01.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_001.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 177.839px;">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_02.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_002.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 177.839px;">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_03.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_003.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 177.839px;">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_04.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_004.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 177.839px;">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_05.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_005.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <section class="pq-designer-page-1 pq-designer-aboutus-section">
         <div class="container">
             <div class="pq-designer-aboutus-section-wrapper">
@@ -206,17 +111,7 @@
                             will feature inspiring speakers, practical workshops, and opportunities to explore how
                             technology and social media can help youth grow as individuals and future leaders.
                         </p>
-                        <div class="pq-btn-container">
-                            <a href="event-grid.html" class="pq-button pq-button-flat">
-                                <span>REGISTER NOW</span>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 242.503px;"></path>
-                                </svg>
-                            </a>
-                        </div>
+                      
                     </div>
                 </div>
 
@@ -257,14 +152,11 @@
         </div>
     </section>
 
-
-
-
-    {{-- <div class="pq-carousel-brand pq-carousel-brand-page-1 pq-carousel-brand-aboutus ">
+     <div class="pq-carousel-brand pq-carousel-brand-page-1 ">
         <div class="container">
             <div class="row  ">
-                <div class="pq-brand-title-div  text-center pq-top-border">
-                    <span class="pq-brand-title">WE WORKED WITH GLOBAL LARGEST BRANDS</span>
+                <div class="pq-brand-title-div  text-center pq-top-border wow zoomIn">
+                    <span class="pq-brand-title">OUR PARTNERS/SPONSORS</span>
                 </div>
                 <div class="col-lg-12 ">
                     <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="5"
@@ -273,72 +165,9 @@
                         <div class="item">
                             <div class="pq-brand-box">
                                 <a href="#">
-                                    <img src="images/page1/brands/client_01.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_001.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 177.839px;">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_02.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_002.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 177.839px;">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_03.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_003.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 177.839px;">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_04.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_004.webp" alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"
-                                        style="stroke-dashoffset: 177.839px;">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/page1/brands/client_05.webp" alt="img" class="pq-client-img">
-                                    <img src="images/page1/brands/client_005.webp" alt="img" class="pq-client-hover-img">
+                                    <img src="images/partner/INSPIRED-AFRICA.png" alt="img" class="pq-client-img">
+                                    <img src="images/partner/INSPIRED-AFRICA.png"alt="img"
+                                        class="pq-client-hover-img">
                                 </a>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
@@ -349,15 +178,31 @@
                                 <span class="pq-svg-dot"></span>
                             </div>
                         </div>
+                         <div class="item">
+                            <div class="pq-brand-box">
+                                <a href="#">
+                                    <img src="images/partner/REMARKCLD.png" alt="img" class="pq-client-img">
+                                    <img src="images/partner/REMARKCLD.png"alt="img"
+                                        class="pq-client-hover-img">
+                                </a>
+                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
+                                    preserveAspectRatio="none">
+                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
+                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
+                                    </path>
+                                </svg>
+                                <span class="pq-svg-dot"></span>
+                            </div>
+                        </div>
+                       
                     </div>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
 
 
-
-    <section class="pq-collaboration-section pq-aboutus">
+    {{-- <section class="pq-collaboration-section pq-aboutus">
         <div class="container">
             <div class="pq-section-title text-center">
                 <div class="pq-title">
@@ -497,5 +342,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

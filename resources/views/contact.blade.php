@@ -1,31 +1,24 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="pq-breadcrumb-style-1 wow fadeIn">
-        <div class="container-fluid">
-            <div class="pq-breadcrumb">
-                <h1 class="pq-breadcrumb-title text-center">Contact Us</h1>
-                {{-- <img src="images/stander/breadcrumb/portfolio_img_010-600x650.webp" alt="img"> --}}
-            </div>
-        </div>
-    </section>
+   
     <section class="pq-contactus-page">
         <div class="pq-contact-page-3">
             <div class="container">
 
                 <div class="pq-contact-section-wrapper">
-                    <div class="pq-contact-box-div wow fadeInLeft ">
-                        <div class="pq-contact-left-box">
+                    <div class="pq-contact-box-div wow fadeInLeft " style="background: linear-gradient(135deg, #ff3a00, #ffc000);">
+                        <div class="pq-contact-left-box" > 
                             <div class="pq-contact-box pt-2">
                                 <div class="pq-contact-box-icon-div">
                                     <i aria-hidden="true" class=" flaticon-phone-call"></i>
                                 </div>
                                 <div class="pq-contact-box-description">
                                     <h3 class="pq-contect-box-description-title">
-                                        Call Us
+                                        Call/Chat Us
                                     </h3>
-                                    <a href="tel:+2250141484037" class="pq-contact-number">
-                                        +225 0141484037
+                                    <a href="https://wa.me/225079709084" class="pq-contact-number">
+                                        +225 07 970 9084
                                     </a>
                                 </div>
                             </div>
@@ -37,8 +30,8 @@
                                     <h3 class="pq-contect-box-description-title">
                                         Write To Us
                                     </h3>
-                                    <a href="mailto:Info@inspirvisionafrica.com" class="pq-contact-email">
-                                        Info@inspirvisionafrica.com
+                                    <a href="mailto:inspiredvisionafrica@gmail.com" class="pq-contact-email">
+                                        inspiredvisionafrica@gmail.com
                                     </a>
 
                                 </div>
@@ -48,6 +41,8 @@
                             </div>
                         </div>
                     </div>
+
+                    
                     <div class="pq-form-wrapper wow fadeInRight  ">
                         <div class="pq-section-title text-left">
                             <div class="pq-title">

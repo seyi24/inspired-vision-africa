@@ -8,7 +8,7 @@
     <title>Inspired Vision Africa - Empowering Africa's Youth to learn, Create and Lead</title>
     <link rel="shortcut icon" href="{{ asset('images/logo/INSPIRED-AFRICA-single.png') }}" type="image/x-icon">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-     <link rel="stylesheet" href="{{ asset('rev/css/rs6.css') }}">
+    <link rel="stylesheet" href="{{ asset('rev/css/rs6.css') }}">
     <link rel="stylesheet" href="{{ asset('rev/fonts/font-awesome/css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/helper.css') }}">
     <link rel="stylesheet" href="{{ asset('rev/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css') }}">
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="{{ asset('fonts/themify-icons/themify-icons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animations.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-   
+
 
 </head>
 
@@ -58,7 +58,7 @@
                                 empower youth to rise above limitations, embrace their purpose, and unlock the greatness
                                 within.</p>
                             <figure class="pq-block-image size-large">
-                                <img decoding="async" src="{{ asset('images/sidebar/blog_img_006-1024x585.webp') }}"
+                                <img decoding="async" src="{{ asset('images/main/2.jpg') }}"
                                     alt="Inspire Vision Africa Youth Conference" class="wp-image-2559">
                             </figure>
                         </div>
@@ -69,15 +69,18 @@
                 <h2 class="pq-contact-title"> Contact Info </h2>
                 <ul class="pq-contact">
                     <li>
-                        <a href="#">
+                        <a href="https://wa.me/225079709084" target="_blank">
                             <div class="pq-icon">
                                 <i class="flaticon-phone-call"></i>
                             </div>
-                            <span>+225 unavailable</span>
+                            <span>WhatsApp: +225 07 970 9084</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#"><i class=" flaticon-sms"></i><span>info@inspiredvisionafrica.com</span></a>
+                        <a href="mailto:inspiredvisionafrica@gmail.com">
+                            <i class="flaticon-sms"></i>
+                            <span>Email: inspiredvisionafrica@gmail.com</span>
+                        </a>
                     </li>
                     <li>
                         <div class="pq-icon">
@@ -121,12 +124,11 @@
                         <img src="{{ asset('images/logo/INSPIRED-AFRICA white.png') }}" alt="nav-logo"
                             class="nav-logo">
                     </a>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                         <div class="pq-menu-contain">
-                            <ul class="navbar-nav" id="pq-main-menu">
-                                <li class="menu-item current-menu-item">
+                            <ul class="navbar-nav" id="pq-main-menu" >
+                                <li class="menu-item current-menu-item" >
                                     <a href="{{ url('/') }}">Home </i></a>
-
                                 </li>
                                 <li class="menu-item">
                                     <a href="{{ url('/about') }}">About Us </i></a>
@@ -140,48 +142,10 @@
                                 <li class="menu-item">
                                     <a href="{{ url('/contact') }}">Contact </i></a>
                                 </li>
-
-                                {{-- <li class="menu-item">
-                                    <a href="#">EVENTS <i class="fa-solid fa-caret-down  "></i></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item">
-                                            <a href="event-grid.html">EVENTS GRID</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="event-list.html">EVENTS LIST</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="schedule.html">SCHEDULE</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="event-detail.html">EVENT DETAILS</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="#">BLOG <i class="fa-solid fa-caret-down  "></i></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="blog-grid.html">BLOG GRID</a></li>
-                                        <li class="menu-item"><a href="blog-list.html">BLOG LIST</a></li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">BLOG SIDEBAR <i
-                                                    class="fa-solid fa-caret-right pq-carrot-icon "></i></a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="blog-left-sidebar.html">Left Sidebar</a></li>
-                                                <li class="menu-item"><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item"><a href="blog-details.html">BLOG DETALS</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="contact-us.html">Contact Us</a>
-                                </li> --}}
                             </ul>
                         </div>
                     </div>
-                    <div class="pq-header-right  ">
+                    <div class="pq-header-right  " style="background: linear-gradient(135deg, #ff3a00, #ffc000);">
 
                         <div class="pq-toggle-button" id="pq-toggle-button">
                             <a href="javascript:void(0)" class="menu-toggle">
@@ -213,10 +177,7 @@
         </div>
     </header>
 
-
     @yield('content')
-
-
 
     <footer class="pq-footer-page-2 ">
         <div class="pq-top-footer ">
@@ -229,7 +190,7 @@
                             </div>
                             <div class="pq-phone-number-div ">
                                 <p>Phone No.</p>
-                                <a href="#">+225 unavailable</a>
+                                <a href="https://wa.me/225079709084" target="_blank">+225 07 970 9084</a>
                             </div>
                         </div>
 
@@ -241,7 +202,7 @@
                             </div>
                             <div class="pq-phone-number-div ">
                                 <p>Email</p>
-                                <a href="#">Info@inspirvisionafrica.com</a>
+                                <a href="mailto:inspiredvisionafrica@gmail.com">inspiredvisionafrica@gmail.com</a>
                             </div>
                         </div>
 
@@ -253,7 +214,7 @@
                             </div>
                             <div class="pq-phone-number-div ">
                                 <p>Address</p>
-                                <a href="#">Abidjan, Cote d'ivoire</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=8247+WXP,+Abidjan">Foyer des Jeunes Marcory, Abidjan, Cote d'Ivoire</a>
                             </div>
                         </div>
                     </div>
@@ -279,7 +240,7 @@
                         <div class="mid-footer-about-list">
                             <ul>
                                 <li class="about-list"> <a href="{{ url('/about') }}">About Us</a> </li>
-                                <li class="about-list"> <a href="{{ url('/speakers') }}">Speakers </a></li>
+                                <li class="about-list"> <a href="{{ url('/speaker') }}">Speakers </a></li>
 
                             </ul>
                             <ul>

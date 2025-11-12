@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
-
-   <section class="pq-breadcrumb-style-1 wow fadeIn">
+    <section class="pq-breadcrumb-style-1 wow fadeIn">
         <div class="container-fluid">
             <div class="pq-breadcrumb">
                 <h1 class="pq-breadcrumb-title text-center"></h1>
@@ -9,11 +8,11 @@
         </div>
     </section>
 
-<section class="pq-speaker-team-section">
+    <section class="pq-speaker-team-section">
         <div class="container">
             <div class="pq-section-title text-center">
                 <div class="pq-title">
-                    <h5 class="pq-title-heading text-center">meet our 
+                    <h5 class="pq-title-heading text-center">meet our
                         <span class="pq-title-last-word">speaker
                             <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                 preserveAspectRatio="none">
@@ -36,27 +35,17 @@
                         </div>
                     </div>
                 </div>
-             
+
             </div>
-            {{-- <div class="pq-btn-container text-center ">
-                <a href="#" class="pq-button pq-button-flat">
-                    <span>BUY TICKETS </span>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
-                    </svg>
-                </a>
-            </div> --}}
+          
         </div>
     </section>
 
-       <section class="pq-breadcrumb-style-1 wow fadeIn">
+    <section class="pq-breadcrumb-style-1 wow fadeIn">
         <div class="container-fluid">
             <div class="pq-breadcrumb">
                 <h1 class="pq-breadcrumb-title text-center"></h1>
-                {{-- <img src="images/stander/breadcrumb/portfolio_img_010-600x650.webp" alt=""> --}}
             </div>
         </div>
     </section>
-
 @endsection
