@@ -11,7 +11,7 @@
                         data-out="o:0;sx:1.6;sy:1.6;">
                         <img src="images/main/6.jpg" alt="" title="h3_banner_001" width="1853" height="950"
                             class="rev-slidebg tp-rs-img" data-no-retina>
-                    
+
                         <rs-layer id="slider-4-slide-6-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
@@ -35,7 +35,7 @@
 
 
 
-               
+
                         <rs-layer id="slider-4-slide-6-layer-3" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:43px,35px,26px,16px;yo:576px,475px,360px,222px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -44,7 +44,7 @@
                             data-frame_hover="bgc:#007aff;bor:25px,25px,25px,25px;bri:120%;"
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
-                        
+
                         <rs-layer id="slider-4-slide-6-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -62,7 +62,7 @@
                                 </svg>
                             </a>
                         </rs-layer>
-                        
+
                         <rs-layer id="slider-4-slide-6-layer-5" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:50px,41px,31px,19px;yo:50px,41px,31px,19px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -73,13 +73,13 @@
                             style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Roboto';">
                         </rs-layer>
 
-                    
+
                     </rs-slide>
                     <rs-slide style="position: absolute;" data-key="rs-11" data-title="Slide" data-in="o:0;sx:0.6;sy:0.6;"
                         data-out="o:0;sx:1.6;sy:1.6;">
                         <img src="images/main/5.jpg" alt="" title="h3_rev_banner_002" width="2560"
                             height="1312" class="rev-slidebg tp-rs-img" data-no-retina>
-                     
+
                         <rs-layer id="slider-4-slide-11-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
@@ -88,7 +88,7 @@
                             data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;sR:6400;"
                             style="z-index:8;font-family:'Oswald';text-transform:uppercase;">Unleash
                         </rs-layer>
-                        
+
                         <rs-layer id="slider-4-slide-11-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
@@ -107,7 +107,7 @@
                             data-frame_hover="bgc:#007aff;bor:25px,25px,25px,25px;bri:120%;"
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
-                        
+
                         <rs-layer id="slider-4-slide-11-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -125,7 +125,7 @@
                                 </svg>
                             </a>
                         </rs-layer>
-                      
+
                         <rs-layer id="slider-4-slide-11-layer-5" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:50px,41px,31px,19px;yo:50px,41px,31px,19px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -135,13 +135,13 @@
                             data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;bri:120%;"
                             style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Roboto';">
                         </rs-layer>
-                     
+
                     </rs-slide>
                     <rs-slide style="position: absolute;" data-key="rs-12" data-title="Slide"
                         data-in="o:0;sx:0.6;sy:0.6;" data-out="o:0;sx:1.6;sy:1.6;">
                         <img src="images/main/4.jpg" alt="" title="main" width="2560" height="1312"
                             class="rev-slidebg tp-rs-img" data-no-retina>
-                      
+
                         <rs-layer id="slider-4-slide-12-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
@@ -150,7 +150,7 @@
                             data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;sR:6400;"
                             style="z-index:8;font-family:'Oswald';text-transform:uppercase;">Unleash
                         </rs-layer>
-                       
+
                         <rs-layer id="slider-4-slide-12-layer-3" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:43px,35px,26px,16px;yo:576px,475px,360px,222px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -159,7 +159,7 @@
                             data-frame_hover="bgc:#007aff;bor:25px,25px,25px,25px;bri:120%;"
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
-                       
+
                         <rs-layer id="slider-4-slide-12-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -177,7 +177,7 @@
                                 </svg>
                             </a>
                         </rs-layer>
-                        
+
                         <rs-layer id="slider-4-slide-12-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
@@ -187,7 +187,7 @@
                             style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness<br><span
                                 style="display:block;font-size:0.5em;">Conference 2025</span>
                         </rs-layer>
-                        
+
                     </rs-slide>
                 </rs-slides>
             </rs-module>
@@ -574,9 +574,8 @@
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
-                                    <a href="project-details.html">
                                         <img src="images/event/71.jpg" alt="Brand Identity">
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
@@ -596,14 +595,14 @@
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
                                     <a href="project-details.html">
-                                        <img src="images/event/71.jpg" alt="Digital Skills">
+                                        <img src="images/event/35.jpg" alt="Digital Skills">
                                     </a>
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
                                 <span><a href="#" class="pq-portfolio-tag">Innovation</a></span>
                                 <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">Digital Skills</a>
+                             Digital Skills
                                 </h5>
                                 <p>Empowering young Africans with hands-on digital training in web design, graphics, and
                                     emerging technologies for global competitiveness.</p>
@@ -616,15 +615,13 @@
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
-                                    <a href="project-details.html">
-                                        <img src="images/event/71.jpg" alt="Financial Empowerment">
-                                    </a>
+                                        <img src="images/event/94.jpg" alt="Financial Empowerment">                                   
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
                                 <span><a href="#" class="pq-portfolio-tag">Growth</a></span>
                                 <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">Financial Empowerment</a>
+                                    Financial Empowerment
                                 </h5>
                                 <p>We promote financial literacy and entrepreneurship to help individuals build sustainable
                                     wealth and economic independence.</p>
@@ -637,15 +634,14 @@
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
-                                    <a href="project-details.html">
-                                        <img src="images/event/71.jpg" alt="Creative Innovation">
-                                    </a>
+                                        <img src="images/event/52.jpg" alt="Creative Innovation">
+                                    
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
                                 <span><a href="#" class="pq-portfolio-tag">Impact</a></span>
                                 <h5 class="pq-portfolio-style-1-title">
-                                    <a href="project-details.html">Creative Innovation</a>
+                                    Creative Innovation
                                 </h5>
                                 <p>Bridging creativity and technology to inspire projects that transform communities and
                                     build lasting impact across Africa.</p>
@@ -683,11 +679,27 @@
                                 <span class="pq-svg-dot"></span>
                             </div>
                         </div>
+                       
                         <div class="item">
                             <div class="pq-brand-box">
                                 <a href="#">
-                                    <img src="images/partner/REMARKCLD.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/REMARKCLD.png"alt="img" class="pq-client-hover-img">
+                                    <img src="images/partner/RANIEXhouse.png" alt="img" class="pq-client-img">
+                                    <img src="images/partner/RANIEXhouse.png"alt="img" class="pq-client-hover-img">
+                                </a>
+                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
+                                    preserveAspectRatio="none">
+                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
+                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
+                                    </path>
+                                </svg>
+                                <span class="pq-svg-dot"></span>
+                            </div>
+                        </div>
+                         <div class="item">
+                            <div class="pq-brand-box">
+                                <a href="#">
+                                    <img src="images/partner/MIRA.png" alt="img" class="pq-client-img">
+                                    <img src="images/partner/MIRA.png"alt="img" class="pq-client-hover-img">
                                 </a>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
@@ -704,118 +716,5 @@
             </div>
         </div>
     </div>
-    {{-- <section class="pq-testimonial-section ">
-        <div class="container  ">
-            <div class="pq-testimonial-section-wrapper wow zoomIn">
-                <div class="row align-items-center ">
-                    <div class="col-lg-6  ">
-                        <div class="pq-testimonial-team-wrapper">
-                            <span class="pq-svg-dot"></span>
-                            <div class="pq-section-title text-left">
-                                <div class="pq-title">
-                                    <h5 class="pq-title-heading">
-                                        EXCLUSIVE VIP ACCESS WITH PREMIUM
-                                        <span class="pq-title-last-word">
-                                            BENEFITS
-                                            <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                                preserveAspectRatio="none">
-                                                <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                                    vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                                </path>
-                                            </svg>
-                                            <span class="pq-svg-dot"></span>
-                                        </span>
-                                    </h5>
-                                </div>
-                            </div>
-                          
-                        </div>
-                    </div>
-                    <div class="col-lg-6  ">
-                        <div class="pq-testimonial-box-slider pq-style-1">
-                            <div class="owl-carousel owl-loaded owl-drag" data-dots="true" data-nav="false"
-                                data-desk_num="1" data-lap_num="1" data-tab_num="1" data-mob_num="1" data-mob_sm="1"
-                                data-autoplay="true" data-loop="true" data-autowidth="false" data-margin="30">
-                                <div class="item">
-                                    <div class="pq-testimonial-box">
-                                       
-                                        <p class="pq-testimonial-discription">
-                                            The event was exceptional, featuring engaging speakers, valuable networking, and
-                                            practical strategies.
-                                            It offered actionable insights to improve marketing campaigns, with sessions
-                                            focused
-                                            on current trends.
-                                        </p>
-                                        <div class="pq-testimonial-info">
-                                            <div class="pq-testimonial-author-details">
-                                                <h5 class="pq-testimonial-author-name">
-                                                    Christian Grant
-                                                </h5>
-                                                <span class="pq-testimonial-author-designation">
-                                                    design director
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="pq-quote">
-                                            <i class=" flaticon-quote-1"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="pq-testimonial-box">                                      
-                                        <p class="pq-testimonial-discription">
-                                            The event was exceptional, featuring engaging speakers, valuable networking, and
-                                            practical strategies.
-                                            It offered actionable insights to improve marketing campaigns, with sessions
-                                            focused
-                                            on current trends.
-                                        </p>
-                                        <div class="pq-testimonial-info">
-                                            <div class="pq-testimonial-author-details">
-                                                <h5 class="pq-testimonial-author-name">
-                                                    Christian Grant
-                                                </h5>
-                                                <span class="pq-testimonial-author-designation">
-                                                    design director
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="pq-quote">
-                                            <i class=" flaticon-quote-1"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="pq-testimonial-box">
-                                        
-                                        <p class="pq-testimonial-discription">
-                                            The event was exceptional, featuring engaging speakers, valuable networking, and
-                                            practical strategies.
-                                            It offered actionable insights to improve marketing campaigns, with sessions
-                                            focused
-                                            on current trends.
-                                        </p>
-                                        <div class="pq-testimonial-info">
-                                            <div class="pq-testimonial-author-details">
-                                                <h5 class="pq-testimonial-author-name">
-                                                    Christian Grant
-                                                </h5>
-                                                <span class="pq-testimonial-author-designation">
-                                                    design director
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="pq-quote">
-                                            <i class=" flaticon-quote-1"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <span class="pq-svg-dot wrapper-dot"></span>
-            </div>
-        </div>
-    </section> --}}
+  
 @endsection

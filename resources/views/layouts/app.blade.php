@@ -124,24 +124,25 @@
                         <img src="{{ asset('images/logo/INSPIRED-AFRICA white.png') }}" alt="nav-logo"
                             class="nav-logo">
                     </a>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="pq-menu-contain">
-                            <ul class="navbar-nav" id="pq-main-menu" >
-                                <li class="menu-item current-menu-item" >
-                                    <a href="{{ url('/') }}">Home </i></a>
+                            <ul class="navbar-nav" id="pq-main-menu">
+                                <li class="menu-item {{ request()->is('/') ? 'current-menu-item' : '' }}">
+                                    <a href="{{ url('/') }}">Home</a>
                                 </li>
-                                <li class="menu-item">
-                                    <a href="{{ url('/about') }}">About Us </i></a>
+                                <li class="menu-item {{ request()->is('about') ? 'current-menu-item' : '' }}">
+                                    <a href="{{ url('/about') }}">About Us</a>
                                 </li>
-                                <li class="menu-item">
-                                    <a href="{{ url('/speaker') }}">Speakers </i></a>
+                                <li class="menu-item {{ request()->is('speaker') ? 'current-menu-item' : '' }}">
+                                    <a href="{{ url('/speaker') }}">Speakers</a>
                                 </li>
-                                <li class="menu-item">
-                                    <a href="{{ url('/gallery') }}"> Gallery </i></a>
+                                <li class="menu-item {{ request()->is('gallery') ? 'current-menu-item' : '' }}">
+                                    <a href="{{ url('/gallery') }}">Gallery</a>
                                 </li>
-                                <li class="menu-item">
-                                    <a href="{{ url('/contact') }}">Contact </i></a>
+                                <li class="menu-item {{ request()->is('contact') ? 'current-menu-item' : '' }}">
+                                    <a href="{{ url('/contact') }}">Contact</a>
                                 </li>
+
                             </ul>
                         </div>
                     </div>
@@ -214,7 +215,8 @@
                             </div>
                             <div class="pq-phone-number-div ">
                                 <p>Address</p>
-                                <a href="https://www.google.com/maps/search/?api=1&query=8247+WXP,+Abidjan">Foyer des Jeunes Marcory, Abidjan, Cote d'Ivoire</a>
+                                <a href="https://www.google.com/maps/search/?api=1&query=8247+WXP,+Abidjan">Foyer des
+                                    Jeunes Marcory, Abidjan, Cote d'Ivoire</a>
                             </div>
                         </div>
                     </div>

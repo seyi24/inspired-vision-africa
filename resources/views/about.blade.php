@@ -152,7 +152,7 @@
         </div>
     </section>
 
-     <div class="pq-carousel-brand pq-carousel-brand-page-1 ">
+   <div class="pq-carousel-brand pq-carousel-brand-page-1 ">
         <div class="container">
             <div class="row  ">
                 <div class="pq-brand-title-div  text-center pq-top-border wow zoomIn">
@@ -166,8 +166,23 @@
                             <div class="pq-brand-box">
                                 <a href="#">
                                     <img src="images/partner/INSPIRED-AFRICA.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/INSPIRED-AFRICA.png"alt="img"
-                                        class="pq-client-hover-img">
+                                    <img src="images/partner/INSPIRED-AFRICA.png"alt="img" class="pq-client-hover-img">
+                                </a>
+                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
+                                    preserveAspectRatio="none">
+                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
+                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
+                                    </path>
+                                </svg>
+                                <span class="pq-svg-dot"></span>
+                            </div>
+                        </div>
+                       
+                        <div class="item">
+                            <div class="pq-brand-box">
+                                <a href="#">
+                                    <img src="images/partner/RANIEXhouse.png" alt="img" class="pq-client-img">
+                                    <img src="images/partner/RANIEXhouse.png"alt="img" class="pq-client-hover-img">
                                 </a>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
@@ -181,9 +196,8 @@
                          <div class="item">
                             <div class="pq-brand-box">
                                 <a href="#">
-                                    <img src="images/partner/REMARKCLD.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/REMARKCLD.png"alt="img"
-                                        class="pq-client-hover-img">
+                                    <img src="images/partner/MIRA.png" alt="img" class="pq-client-img">
+                                    <img src="images/partner/MIRA.png"alt="img" class="pq-client-hover-img">
                                 </a>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
@@ -194,7 +208,7 @@
                                 <span class="pq-svg-dot"></span>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
@@ -202,145 +216,4 @@
     </div>
 
 
-    {{-- <section class="pq-collaboration-section pq-aboutus">
-        <div class="container">
-            <div class="pq-section-title text-center">
-                <div class="pq-title">
-                    <h5 class="pq-title-heading">BUILDING STRENGTH THROUGH TEAM
-                        <span class="pq-title-last-word"> COLLABORATION
-                            <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                preserveAspectRatio="none">
-                                <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                    vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                </path>
-                            </svg>
-                            <span class="pq-svg-dot"></span>
-                        </span>
-                    </h5>
-                </div>
-            </div>
-            <div class="pq-team-wrapper">
-                <div class="pq-team-1">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_008.webp" alt="img">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>CHRISTIAN GRANT</h5>
-                        <span>DESIGN DIRECTOR</span>
-                        <div class="pq-team-socials  ">
-                            <a href="about-us.html">FB</a>
-                            <a href="about-us.html">YT</a>
-                            <a href="about-us.html">lN</a>
-                            <a href="about-us.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                        </path>
-                    </svg>
-                </div>
-                <div class="pq-team-2">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_006.webp" alt="img">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>ETHAN BLAKE</h5>
-                        <span>VENUE COORDINATOR</span>
-                        <div class="pq-team-socials">
-                            <a href="about-us.html">FB</a>
-                            <a href="about-us.html">YT</a>
-                            <a href="about-us.html">lN</a>
-                            <a href="about-us.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                        </path>
-                    </svg>
-                </div>
-                <div class="pq-team-1">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_005.webp" alt="img">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>NOAH STERLING</h5>
-                        <span>INSIGHT SPEAKER</span>
-                        <div class="pq-team-socials">
-                            <a href="about-us.html">FB</a>
-                            <a href="about-us.html">YT</a>
-                            <a href="about-us.html">lN</a>
-                            <a href="about-us.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                        </path>
-                    </svg>
-                </div>
-                <div class="pq-team-2">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_002.webp" alt="img">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>GAVIN RHODES</h5>
-                        <span>GUEST MANAGER</span>
-                        <div class="pq-team-socials">
-                            <a href="about-us.html">FB</a>
-                            <a href="about-us.html">YT</a>
-                            <a href="about-us.html">lN</a>
-                            <a href="about-us.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                        </path>
-                    </svg>
-                </div>
-            </div>
-            <div class="pq-team-wrapper2">
-                <div class="pq-team-1">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_001.webp" alt="img">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>NOAH BLAKE</h5>
-                        <span>PROGRAM MANAGER</span>
-                        <div class="pq-team-socials">
-                            <a href="about-us.html">FB</a>
-                            <a href="about-us.html">YT</a>
-                            <a href="about-us.html">lN</a>
-                            <a href="about-us.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
-                    </svg>
-                </div>
-                <div class="pq-team-2">
-                    <div class="pq-profile-picture">
-                        <img src="images/page1/team/team_004.webp" alt="img">
-                    </div>
-                    <div class="pq-team-info">
-                        <h5>JULIAN KNIGHT</h5>
-                        <span>INDUSTRY EXPERT</span>
-                        <div class="pq-team-socials">
-                            <a href="about-us.html">FB</a>
-                            <a href="about-us.html">YT</a>
-                            <a href="about-us.html">lN</a>
-                            <a href="about-us.html">IG</a>
-                        </div>
-                    </div>
-                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                            vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </section> --}}
 @endsection

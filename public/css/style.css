@@ -4618,7 +4618,7 @@ header .pq-bottom-header .svg {
   content: " ";
   height: 10px;
   width: 10px;
-  background-color: var(--primary-color);
+  background: linear-gradient(135deg, #ff3a00, #ffc000);
   position: absolute;
   bottom: 40px;
   left: 0;
@@ -4848,7 +4848,7 @@ header#pq-header .pq-bottom-header.pq-header-page-3 .navbar .pq-menu-contain .na
   display: block;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, var(--white-color) 50%, transparent 0) repeat-x;
+  /* background: linear-gradient(90deg, var(--white-color) 50%, transparent 0) repeat-x; */
   background-size: 15px 2.2px;
   background-position: 0 0;
   position: absolute;
@@ -8036,4 +8036,29 @@ Custom class
     .gallery {
         grid-template-columns: 1fr !important;
     }
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  overflow: auto; /* allows scrolling if image is bigger */
+  text-align: center;
+}
+
+.lightbox-content {
+  margin-top: 60px;
+}
+
+
+
+.close {
+  position: absolute;
+  top: 20px; right: 35px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
 }

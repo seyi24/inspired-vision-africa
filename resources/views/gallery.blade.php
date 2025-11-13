@@ -33,17 +33,20 @@
                <img src="images/gallery/greatness.jpg" alt="">
             </div>
             <div>
-               <img src="images/gallery/nov.jpg" alt="">
+               <img src="images/gallery/greatnessfr.jpg" alt="">
             </div>
+             <div>
+               <img src="images/gallery/partner.jpg" alt="">
+            </div>
+             <div>
+               <img src="images/gallery/volunteer.jpg" alt="">
+            </div>     
             <div>
                <img src="images/gallery/startingline.jpg" alt="">
             </div>
             <div>
                <img src="images/gallery/skill.jpg" alt="">
-            </div>
-            <div class="pq-gallery-image-div">
-               <img src="images/gallery/confidence.jpg" alt="">
-            </div>
+            </div>          
             {{-- 
             <div>
                <iframe width="440" height="290" src="https://www.youtube.com/embed/Xbu4fP2ZH_o"
@@ -57,14 +60,57 @@
             <div>
                <img src="images/gallery/dream.jpg" alt="">
             </div>
+              <div class="pq-gallery-image-div">
+               <img src="images/gallery/confidence.jpg" alt="">
+            </div>
             <div>
                <img src="images/gallery/success.jpg" alt="">
             </div>
             <div>
                <img src="images/gallery/gifted.jpg" alt="">
             </div>
+             <div>
+               <img src="images/gallery/nov.jpg" alt="">
+            </div>
          </div>
       </div>
    </div>
+
+
+   <div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+
+
+<script>
+   // Get modal elements
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const closeBtn = document.querySelector(".close");
+
+// Add click event to all gallery images
+document.querySelectorAll(".gallery img").forEach(img => {
+  img.addEventListener("click", () => {
+    lightbox.style.display = "block";
+    lightboxImg.src = img.src;
+  });
+});
+
+// Close modal
+closeBtn.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+
+// Close when clicking outside image
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
+    lightbox.style.display = "none";
+  }
+});
+
+</script>
+
 </section>
 @endsection
