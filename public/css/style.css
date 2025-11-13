@@ -8008,3 +8008,32 @@ Custom class
       margin: 0 0px;
   }
 } 
+
+
+@media (max-width: 768px) {
+    .gallery {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+    }
+    
+    .pq-gallery-image-div,
+    .gallery > div {
+        width: 100% !important;
+        margin: 0 !important;
+        overflow: hidden !important;
+    }
+    
+    .gallery img,
+    .gallery iframe {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr !important;
+    }
+}

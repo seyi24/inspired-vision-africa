@@ -2,7 +2,6 @@
 @section('content')
     <!-- Banner -->
     <div class="banner py-0 pq-revsection">
-        <!-- START home  3 REVOLUTION SLIDER 6.6.18 -->
         <p class="rs-p-wp-fix"></p>
         <rs-module-wrap id="rev_slider_4_1_wrapper" data-alias="slider-4" data-source="gallery"
             style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
@@ -12,8 +11,7 @@
                         data-out="o:0;sx:1.6;sy:1.6;">
                         <img src="images/main/6.jpg" alt="" title="h3_banner_001" width="1853" height="950"
                             class="rev-slidebg tp-rs-img" data-no-retina>
-                        <!--
-                                          -->
+                    
                         <rs-layer id="slider-4-slide-6-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
@@ -24,8 +22,6 @@
                             Unleash</rs-layer>
 
 
-                        <!--
-                                          -->
                         <rs-layer id="slider-4-slide-6-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
@@ -39,21 +35,7 @@
 
 
 
-                        <!--
-                                          -->
-                        {{--                         
-               <rs-layer id="slider-4-slide-6-layer-2" data-type="image" data-rsp_ch="on"
-                  data-xy="x:l,l,l,c;xo:40px,58px,15px,480px;y:m;yo:25px,5px,32px,-28px;"
-                  data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
-                  data-dim="w:347px,319px,298px,247px;h:158px,145px,135px,112px;" data-vbility="t,t,t,f"
-                  data-frame_0="sX:2;sY:2;" data-frame_0_mask="u:t;"
-                  data-frame_1="e:power2.out;st:1100;sp:1000;sR:1100;" data-frame_1_mask="u:t;"
-                  data-frame_999="o:0;st:w;sR:6900;" style="z-index:7;"><img src="rev/assets/h3_banner_002.webp"
-                  alt="" class="tp-rs-img" width="447" height="203" data-no-retina>
-               </rs-layer>
-               --}}
-                        <!--
-                                          -->
+               
                         <rs-layer id="slider-4-slide-6-layer-3" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:43px,35px,26px,16px;yo:576px,475px,360px,222px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -62,8 +44,7 @@
                             data-frame_hover="bgc:#007aff;bor:25px,25px,25px,25px;bri:120%;"
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
-                        <!--
-                                          -->
+                        
                         <rs-layer id="slider-4-slide-6-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -81,8 +62,7 @@
                                 </svg>
                             </a>
                         </rs-layer>
-                        <!--
-                                          -->
+                        
                         <rs-layer id="slider-4-slide-6-layer-5" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:50px,41px,31px,19px;yo:50px,41px,31px,19px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -93,15 +73,13 @@
                             style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Roboto';">
                         </rs-layer>
 
-                        <!--
-                                          -->
+                    
                     </rs-slide>
                     <rs-slide style="position: absolute;" data-key="rs-11" data-title="Slide" data-in="o:0;sx:0.6;sy:0.6;"
                         data-out="o:0;sx:1.6;sy:1.6;">
                         <img src="images/main/5.jpg" alt="" title="h3_rev_banner_002" width="2560"
                             height="1312" class="rev-slidebg tp-rs-img" data-no-retina>
-                        <!--
-                                          -->
+                     
                         <rs-layer id="slider-4-slide-11-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
@@ -110,8 +88,7 @@
                             data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;sR:6400;"
                             style="z-index:8;font-family:'Oswald';text-transform:uppercase;">Unleash
                         </rs-layer>
-                        <!--
-                                          -->
+                        
                         <rs-layer id="slider-4-slide-11-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
@@ -122,22 +99,6 @@
                                 style="display:block;font-size:0.5em;">Conference 2025</span>
                         </rs-layer>
 
-                        <!--
-                                          -->
-                        {{-- 
-               <rs-layer id="slider-4-slide-11-layer-2" data-type="image" data-rsp_ch="on"
-                  data-xy="x:l,l,l,c;xo:40px,58px,15px,480px;y:m;yo:25px,5px,32px,-28px;"
-                  data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
-                  data-dim="w:347px,319px,298px,247px;h:158px,145px,135px,112px;" data-vbility="t,t,t,f"
-                  data-frame_0="sX:2;sY:2;" data-frame_0_mask="u:t;"
-                  data-frame_1="e:power2.out;st:1100;sp:1000;sR:1100;" data-frame_1_mask="u:t;"
-                  data-frame_999="o:0;st:w;sR:6900;" style="z-index:7;"><img
-                  src="rev/assets/h3_banner_002.webp" alt="" class="tp-rs-img" width="447"
-                  height="203" data-no-retina>
-               </rs-layer>
-               --}}
-                        <!--
-                                          -->
                         <rs-layer id="slider-4-slide-11-layer-3" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:43px,35px,26px,16px;yo:576px,475px,360px,222px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -146,8 +107,7 @@
                             data-frame_hover="bgc:#007aff;bor:25px,25px,25px,25px;bri:120%;"
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
-                        <!--
-                                          -->
+                        
                         <rs-layer id="slider-4-slide-11-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -165,8 +125,7 @@
                                 </svg>
                             </a>
                         </rs-layer>
-                        <!--
-                                          -->
+                      
                         <rs-layer id="slider-4-slide-11-layer-5" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:50px,41px,31px,19px;yo:50px,41px,31px,19px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -176,15 +135,13 @@
                             data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;e:power1.inOut;bri:120%;"
                             style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Roboto';">
                         </rs-layer>
-                        <!--
-                                          -->
+                     
                     </rs-slide>
                     <rs-slide style="position: absolute;" data-key="rs-12" data-title="Slide"
                         data-in="o:0;sx:0.6;sy:0.6;" data-out="o:0;sx:1.6;sy:1.6;">
                         <img src="images/main/4.jpg" alt="" title="main" width="2560" height="1312"
                             class="rev-slidebg tp-rs-img" data-no-retina>
-                        <!--
-                                          -->
+                      
                         <rs-layer id="slider-4-slide-12-layer-0" data-type="text"
                             data-xy="xo:30px,52px,29px,15px;y:m;yo:-153px,-145px,-124px,-68px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;"
@@ -193,32 +150,7 @@
                             data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;" data-frame_999="o:0;st:w;sR:6400;"
                             style="z-index:8;font-family:'Oswald';text-transform:uppercase;">Unleash
                         </rs-layer>
-                        <!--
-                                          -->
-                        <rs-layer id="slider-4-slide-12-layer-1" data-type="text" data-rsp_ch="on"
-                            data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
-                            data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
-                            data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;"
-                            data-frame_1="st:1200;sp:1200;sR:1200;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
-                            data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:5600;"
-                            style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness
-                        </rs-layer>
-                        <!--
-                                          -->
-                        {{-- 
-               <rs-layer id="slider-4-slide-12-layer-2" data-type="image" data-rsp_ch="on"
-                  data-xy="x:l,l,l,c;xo:40px,58px,15px,480px;y:m;yo:25px,5px,32px,-28px;"
-                  data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
-                  data-dim="w:347px,319px,298px,247px;h:158px,145px,135px,112px;" data-vbility="t,t,t,f"
-                  data-frame_0="sX:2;sY:2;" data-frame_0_mask="u:t;"
-                  data-frame_1="e:power2.out;st:1100;sp:1000;sR:1100;" data-frame_1_mask="u:t;"
-                  data-frame_999="o:0;st:w;sR:6900;" style="z-index:7;"><img
-                  src="rev/assets/h3_banner_002.webp" alt="" class="tp-rs-img" width="447"
-                  height="203" data-no-retina>
-               </rs-layer>
-               --}}
-                        <!--
-                                          -->
+                       
                         <rs-layer id="slider-4-slide-12-layer-3" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:43px,35px,26px,16px;yo:576px,475px,360px,222px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -227,8 +159,7 @@
                             data-frame_hover="bgc:#007aff;bor:25px,25px,25px,25px;bri:120%;"
                             style="z-index:9;background-color:#007aff;font-family:'Roboto';">
                         </rs-layer>
-                        <!--
-                                          -->
+                       
                         <rs-layer id="slider-4-slide-12-layer-4" class="rev-btn" data-type="button" data-rsp_ch="on"
                             data-xy="xo:40px,64px,48px,15px;y:m;yo:175px,164px,201px,149px;"
                             data-text="w:normal;s:17,14,10,6;l:40,33,25,15;fw:500;" data-dim="minh:0px,none,none,none;"
@@ -246,8 +177,7 @@
                                 </svg>
                             </a>
                         </rs-layer>
-                        <!--
-                                          -->
+                        
                         <rs-layer id="slider-4-slide-12-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="xo:412px,396px,328px,15px;y:m;yo:25px,5px,27px,31px;"
                             data-text="w:normal;s:140,100,72,72;l:148,108,80,80;fw:400,600,600,600;" data-frame_0="o:1;"
@@ -257,8 +187,7 @@
                             style="z-index:6;font-family:'Oswald';text-transform:uppercase;">Greatness<br><span
                                 style="display:block;font-size:0.5em;">Conference 2025</span>
                         </rs-layer>
-                        <!--
-                                          -->
+                        
                     </rs-slide>
                 </rs-slides>
             </rs-module>
