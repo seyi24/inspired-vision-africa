@@ -1,60 +1,3 @@
-/*
-Template: Confer - Conference & Events HTML Template
-Author: peacefulqode.co.in
-Version: 1.0
-Design and Developed by: Peacefulqode
-*/
-
-/*================================================
-[  Table of contents  ]
-================================================
-==> Moz Selection
-==> General
-==> Loading
-==> Back to Top
-==> Button Core
-==> Section Title
-==> Section
-==> counter 
-==> Timer
-==> Team
-==> Pricing plan 
-==> Testimonial 
-==> Client
-==> Img-Corousel
-==> Blog
-==> blog-grid page
-==? Blog Sidebar
-==> blog details page  
-==> Portfoliobox
-==> Event box
-==> Hero section
-==> Service Box
-==> Contact Form
-==> Header
-==> Border svg
-==> Footer
-==> OWL Carousel
-==> Testimonial
-==> Accordian
-==> Stander / Masonry 
-==> Isotope Portfolio
-==> Progress Bar
-==> Error Page
-==> About US page
-==> Speakers Details  Page
-==> Event grid page
-==> Gallery page
-==> Event details page
-==> Contact us page 
-==> Project details page
-==> Custom Class
-======================================
-[ End table content ]
-======================================*/
-/*================================================
-Fonts
-================================================*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Oswald:wght@200..700&amp;display=swap');
 /*================================================
 Moz Selectio
@@ -8045,7 +7988,7 @@ Custom class
   left: 0; top: 0;
   width: 100%; height: 100%;
   background-color: rgba(0,0,0,0.8);
-  overflow: auto; /* allows scrolling if image is bigger */
+  overflow: auto;
   text-align: center;
 }
 
@@ -8062,3 +8005,57 @@ Custom class
   font-size: 40px;
   cursor: pointer;
 }
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  overflow: auto;
+  text-align: center;
+}
+
+.lightbox-content {
+  margin-top: 60px;
+}
+
+
+
+.close {
+  position: absolute;
+  top: 20px; right: 35px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* ...existing code... */
+/* replace .lightbox-prev/.lightbox-next rules by unified .slide */
+
+.slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(124, 124, 124, 0.9);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.slide[data-direction="prev"] {
+    left: 10px;
+}
+
+.slide[data-direction="next"] {
+    right: 10px;
+}
+
+.slide:hover {
+    background-color: rgba(124, 124, 124, 0.9);
+}
+/* ...existing code... */

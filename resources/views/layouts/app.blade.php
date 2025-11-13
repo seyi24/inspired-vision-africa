@@ -93,12 +93,12 @@
             <div class="pq-sidebar-social">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/profile.php?id=61581453280731">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/inspiredvisionafrica?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
@@ -259,8 +259,8 @@
             <div class="container">
                 <div class="pq-bottom-footer-wrapper">
                     <div class="footer-socials">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61581453280731"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/inspiredvisionafrica?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
                         <a href="#"><i class="fa-brands fa-tiktok"></i></a>
@@ -304,7 +304,7 @@
         'cp_cache': ''
     }, {
         'cp_cl': '8'
-    }) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.
+    }) 
 </script>
 <script src='../../../img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'></script>
 

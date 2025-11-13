@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    
     <section>
         <div class="container">
             <div class="pq-designer-content-aboutus-section-wrapper">
@@ -111,7 +110,7 @@
                             will feature inspiring speakers, practical workshops, and opportunities to explore how
                             technology and social media can help youth grow as individuals and future leaders.
                         </p>
-                      
+
                     </div>
                 </div>
 
@@ -152,7 +151,7 @@
         </div>
     </section>
 
-   <div class="pq-carousel-brand pq-carousel-brand-page-1 ">
+    <div class="pq-carousel-brand pq-carousel-brand-page-1 ">
         <div class="container">
             <div class="row  ">
                 <div class="pq-brand-title-div  text-center pq-top-border wow zoomIn">
@@ -165,8 +164,8 @@
                         <div class="item">
                             <div class="pq-brand-box">
                                 <a href="#">
-                                    <img src="images/partner/INSPIRED-AFRICA.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/INSPIRED-AFRICA.png"alt="img" class="pq-client-hover-img">
+                                    <img src="images/partner/REMARKCLD.png" alt="img" class="pq-client-img">
+                                    <img src="images/partner/REMARKCLD.png"alt="img" class="pq-client-hover-img">
                                 </a>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
@@ -177,7 +176,7 @@
                                 <span class="pq-svg-dot"></span>
                             </div>
                         </div>
-                       
+
                         <div class="item">
                             <div class="pq-brand-box">
                                 <a href="#">
@@ -193,7 +192,7 @@
                                 <span class="pq-svg-dot"></span>
                             </div>
                         </div>
-                         <div class="item">
+                        <div class="item">
                             <div class="pq-brand-box">
                                 <a href="#">
                                     <img src="images/partner/MIRA.png" alt="img" class="pq-client-img">
@@ -214,6 +213,4 @@
             </div>
         </div>
     </div>
-
-
 @endsection
