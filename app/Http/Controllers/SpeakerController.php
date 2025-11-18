@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
     
@@ -8,7 +9,7 @@ class SpeakerController extends Controller
 {
   public function index()
 {
-    $speakers = Speaker::with(['id', 'name ', 'image' , 'position']);
+    $speakers = Speaker::select(['id', 'name', 'image', 'position'])->get();
 
     return view('speaker', compact('speakers'));
 }

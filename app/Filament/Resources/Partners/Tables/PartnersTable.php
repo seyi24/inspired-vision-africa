@@ -16,7 +16,9 @@ class PartnersTable
     {
         return $table
             ->columns([
-                ImageColumn::make('image'),
+                ImageColumn::make('image')
+                    ->disk('public'), 
+   
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()

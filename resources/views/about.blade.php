@@ -161,52 +161,26 @@
                     <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="5"
                         data-lap_num="4" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true"
                         data-loop="true" data-autowidth="false" data-margin="30">
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/partner/REMARKCLD.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/REMARKCLD.png"alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
+                        @foreach ($partners as $partner)
+                            <div class="item">
+                                <div class="pq-brand-box">
 
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/partner/RANIEXhouse.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/RANIEXhouse.png"alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
+                                    <img src="{{ asset('storage/' . $partner->image) }}" alt="partner"
+                                        class="pq-client-img">
+                                    <img src="{{ asset('storage/' . $partner->image) }}" alt="partner"
+                                        class="pq-client-hover-img">
+
+                                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
+                                        preserveAspectRatio="none">
+                                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
+                                            vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
+                                    </svg>
+                                    <span class="pq-svg-dot"></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/partner/MIRA.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/MIRA.png"alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
+                        @endforeach
+
+
 
                     </div>
                 </div>

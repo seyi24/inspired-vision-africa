@@ -11,9 +11,12 @@ class PartnerForm
     {
         return $schema
             ->components([
-                FileUpload::make('image')
-                    ->image()
+                FileUpload::make('image')                             
+                  ->disk('public')               
+                    ->directory('partner')         
+                    ->image()                      
+                    ->visibility('public')         
                     ->required(),
-            ]);
+                     ]);
     }
 }

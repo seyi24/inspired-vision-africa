@@ -574,8 +574,8 @@
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
-                                        <img src="images/event/71.jpg" alt="Brand Identity">
-                                    
+                                    <img src="images/event/71.jpg" alt="Brand Identity">
+
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
@@ -602,7 +602,7 @@
                             <div class="pq-portfolio-info">
                                 <span><a href="#" class="pq-portfolio-tag">Innovation</a></span>
                                 <h5 class="pq-portfolio-style-1-title">
-                             Digital Skills
+                                    Digital Skills
                                 </h5>
                                 <p>Empowering young Africans with hands-on digital training in web design, graphics, and
                                     emerging technologies for global competitiveness.</p>
@@ -615,7 +615,7 @@
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
-                                        <img src="images/event/94.jpg" alt="Financial Empowerment">                                   
+                                    <img src="images/event/94.jpg" alt="Financial Empowerment">
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
@@ -634,8 +634,8 @@
                         <div class="pq-portfoliobox">
                             <div class="pq-portfolio-image-wrapper">
                                 <div class="pq-portfolio-image">
-                                        <img src="images/event/52.jpg" alt="Creative Innovation">
-                                    
+                                    <img src="images/event/52.jpg" alt="Creative Innovation">
+
                                 </div>
                             </div>
                             <div class="pq-portfolio-info">
@@ -663,42 +663,30 @@
                 <div class="col-lg-12 ">
                     <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="false" data-desk_num="5"
                         data-lap_num="4" data-tab_num="3" data-mob_num="1" data-mob_sm="1" data-autoplay="true"
-                        data-loop="true" data-autowidth="false" data-margin="30">                                          
-                        <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/partner/RANIEXhouse.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/RANIEXhouse.png"alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
+                        data-loop="true" data-autowidth="false" data-margin="30">
+                        @foreach ($partners as $partner)
+                            <div class="item">
+                                <div class="pq-brand-box">
+
+                                    <img src="{{ asset('storage/' . $partner->image) }}" alt="partner"
+                                        class="pq-client-img" style="width: 150px" >
+                                  
+
+                                    <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
+                                        preserveAspectRatio="none">
+                                        <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
+                                            vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
+                                    </svg>
+                                    <span class="pq-svg-dot"></span>
+                                </div>
                             </div>
-                        </div>
-                         <div class="item">
-                            <div class="pq-brand-box">
-                                <a href="#">
-                                    <img src="images/partner/MIRA.png" alt="img" class="pq-client-img">
-                                    <img src="images/partner/MIRA.png"alt="img" class="pq-client-hover-img">
-                                </a>
-                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                    preserveAspectRatio="none">
-                                    <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                    </path>
-                                </svg>
-                                <span class="pq-svg-dot"></span>
-                            </div>
-                        </div>
+                        @endforeach
+
+
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-  
 @endsection
