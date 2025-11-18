@@ -70,8 +70,8 @@
                                 </div>
 
                                 <div class="pq-btn-container">
-                                    <a href="event-grid.html" class="pq-button pq-button-flat">
-                                        <span>JOIN THE MOVEMENT</span>
+                                    <a href="https://bit.ly/InspiredVisionAfricaReg" class="pq-button pq-button-flat">
+                                        <span>Register Now</span>
                                         <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                             preserveAspectRatio="none">
                                             <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"

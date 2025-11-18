@@ -17,8 +17,8 @@
                                     <h3 class="pq-contect-box-description-title">
                                         Call/Chat Us
                                     </h3>
-                                    <a href="https://wa.me/225079709084" class="pq-contact-number">
-                                        +225 07 970 9084
+                                    <a href="https://wa.me/2250797090846" class="pq-contact-number">
+                                        +225 07 97 09 0846
                                     </a>
                                 </div>
                             </div>

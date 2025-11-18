@@ -27,13 +27,15 @@
             </div>
             <div class="pq-team-2-list wow fadeInUp text-left">
                 <div class="pq-team pq-style-2 pq-item-list">
+                    @foreach ($speakers as $speaker)                            
                     <div class="pq-team-info">
-                        <h5 class="pq-member-name">Afolabi Muhammad</h5>
-                        <span class="pq-team-designation">Founder of Smartsaver</span>
+                        <h5 class="pq-member-name">{{ $speaker->name ?? '' }}</h5>
+                        <span class="pq-team-designation">{{ $speaker->position ?? '' }}</span>
                         <div class="pq-team-media">
-                            <img decoding="async" src="images/speaker/1.jpg" alt="team-image">
+                            <img decoding="async" src="{{ asset('storage/' . $speaker->image) }}"  alt="team-image">
                         </div>
                     </div>
+                       @endforeach
                 </div>
 
             </div>
