@@ -33,8 +33,9 @@ class AdminPanelProvider extends PanelProvider
             ->colors([
                 'primary' => Color::hex('#ff3a00'),
             ])
-
+            
             ->brandLogo('/images/logo/INSPIRED-AFRICA.png')
+            ->brandName('Inspired Vision Africa')            
             ->darkModeBrandLogo('/images/logo/INSPIRED-AFRICA white.png') 
             ->brandLogoHeight('45px')          
             ->favicon('/images/logo/INSPIRED-AFRICA-single.png')

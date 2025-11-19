@@ -355,192 +355,26 @@
                     </h5>
                 </div>
             </div>
-            <div class="pq-team-2-list wow fadeInUp text-left">
-                <div class="pq-team pq-style-2 pq-item-list">
-                    <div class="pq-team-info">
-                        <h5 class="pq-member-name">Afolabi Muhammad</h5>
-                        <span class="pq-team-designation">Founder of Smartsaver</span>
-                        <div class="pq-team-media">
-                            <img decoding="async" src="images/speaker/1.jpg" alt="team-image">
+            <div class="pq-team-2-list text-left wow slideInUp">
+                @foreach ($speakers as $speaker)
+                    <div class="pq-team pq-style-2 pq-item-list {{ $loop->first ? 'pq-active' : '' }}">
+                        <div class="pq-team-info">
+
+                            <h5 class="pq-member-name">{{ $speaker->name }}</h5>
+
+                            <span class="pq-team-designation">{{ $speaker->position }}</span>
+
+                            <div class="pq-team-media">
+                                <img decoding="async" src="{{ asset('storage/' . $speaker->image) }}" alt="team-image">
+                            </div>
+
                         </div>
                     </div>
-                </div>
-
+                @endforeach
             </div>
-
         </div>
     </section>
-    {{-- <section class="pq-tabs-section ">
-        <div class="container">
-            <div class="pq-section-title text-center">
-                <div class="pq-title">
-                    <h5 class="pq-title-heading">
-                        SIMPLIFY LIFE WITH SMART
-                        <span class="pq-title-last-word">
-                            SCHEDULES
-                            <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
-                                preserveAspectRatio="none">
-                                <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
-                                    vector-effect="non-scaling-stroke" stroke-dasharray="400">
-                                </path>
-                            </svg>
-                            <span class="pq-svg-dot"></span>
-                        </span>
-                    </h5>
-                </div>
-            </div>
-            <div class="pq-tabs-wrapper wow fadeInUp">
-                <ul class="nav nav-tabs  " id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link   active" href="#" id="pills-tab1" data-bs-toggle="pill"
-                            data-bs-target="#pills-nav-tab1" role="tab" aria-selected="true">
-                            <p>02 FEB</p>
-                            <span>DAY 01</span>
-                        </a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link mid-link " href="#" id="pills-tab2" data-bs-toggle="pill"
-                            data-bs-target="#pills-nav-tab2" role="tab" aria-selected="false">
-                            <p>03 FEB</p>
-                            <span>DAY 02</span>
-                        </a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link   " href="#" id="pills-tab3" data-bs-toggle="pill"
-                            data-bs-target="#pills-nav-tab3" role="tab" aria-selected="false">
-                            <p>04 FEB</p>
-                            <span>DAY 03</span>
-                        </a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-nav-tab1" role="tabpanel"
-                        aria-labelledby="pills-tab1" tabindex="0">
-                        <div class="tabs-table-wrapper">
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">10:00 am - 10:30 am</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Main Lobby</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Opening & Keynotes</div>
-                                <div class="pq-tabs-table-data">Ava Williams</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">10:30 am - 11:00 am</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Grand Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Opening Ceremony</div>
-                                <div class="pq-tabs-table-data">Noah Scott</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">11:00 am - 1:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Willow Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">AI And Big Data</div>
-                                <div class="pq-tabs-table-data">Alex Brown</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">1:00 pm - 2:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Dining Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Lunch Break</div>
-                                <div class="pq-tabs-table-data"> </div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">2:00 pm - 4:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Willow Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Healthcare Innovation</div>
-                                <div class="pq-tabs-table-data">Julia Carter</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">4:00 pm - 6:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Grand Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Building AI Startups</div>
-                                <div class="pq-tabs-table-data">Emily Zhang</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-nav-tab2" role="tabpanel" aria-labelledby="pills-tab2"
-                        tabindex="0">
-                        <div class="tabs-table-wrapper">
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">10:00 am - 10:30 am</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Main Lobby</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Welcome Coffee</div>
-                                <div class="pq-tabs-table-data">Ava Williams</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">10:30 am - 11:00 am</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Willow Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Digital Transformation</div>
-                                <div class="pq-tabs-table-data">Noah Scott</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">11:00 am - 1:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Grand Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Retail Analytics</div>
-                                <div class="pq-tabs-table-data">Alex Brown</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">1:00 pm - 2:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Dining Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Lunch Break</div>
-                                <div class="pq-tabs-table-data"> </div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">2:00 pm - 4:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Conference Room</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Retail Analytics</div>
-                                <div class="pq-tabs-table-data">Julia Carter</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">4:00 pm - 6:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Grand Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Visualization Techniques</div>
-                                <div class="pq-tabs-table-data">Emily Zhang</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-nav-tab3" role="tabpanel" aria-labelledby="pills-tab3"
-                        tabindex="0">
-                        <div class="tabs-table-wrapper">
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">10:00 am - 10:30 am</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Main Lobby</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Breakfast Networking</div>
-                                <div class="pq-tabs-table-data">Ava Williams</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">10:30 am - 11:00 am</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Grand Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Welcome Speech</div>
-                                <div class="pq-tabs-table-data">Noah Scott</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">11:00 am - 1:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Willow Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Future Of AI</div>
-                                <div class="pq-tabs-table-data">Alex Brown</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">1:00 pm - 2:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Dining Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Lunch Break</div>
-                                <div class="pq-tabs-table-data"> </div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">2:00 pm - 4:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Conference Room</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Big Data Analytics</div>
-                                <div class="pq-tabs-table-data">Julia Carter</div>
-                            </div>
-                            <div class="pq-data-wrapper">
-                                <div class="pq-tabs-table-data">4:00 pm - 6:00 pm</div>
-                                <div class="pq-tabs-table-data mid-left-data-box">Grand Hall</div>
-                                <div class="pq-tabs-table-data mid-right-data-box">Data Governance</div>
-                                <div class="pq-tabs-table-data">Emily Zhang</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+   
     <section class="pq-portfolio-section">
         <div class="container">
             <div class="pq-section-title text-center">
@@ -669,8 +503,8 @@
                                 <div class="pq-brand-box">
 
                                     <img src="{{ asset('storage/' . $partner->image) }}" alt="partner"
-                                        class="pq-client-img" style="width: 150px" >
-                                  
+                                        class="pq-client-img" style="width: 150px">
+
 
                                     <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                         preserveAspectRatio="none">

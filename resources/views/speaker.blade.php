@@ -25,24 +25,25 @@
                     </h5>
                 </div>
             </div>
-            <div class="pq-team-2-list wow fadeInUp text-left">
-                <div class="pq-team pq-style-2 pq-item-list">
-                    @foreach ($speakers as $speaker)                            
-                    <div class="pq-team-info">
-                        <h5 class="pq-member-name">{{ $speaker->name ?? '' }}</h5>
-                        <span class="pq-team-designation">{{ $speaker->position ?? '' }}</span>
-                        <div class="pq-team-media">
-                            <img decoding="async" src="{{ asset('storage/' . $speaker->image) }}"  alt="team-image">
+            <div class="pq-team-2-list text-left wow slideInUp">
+                @foreach ($speakers as $speaker)
+                    <div class="pq-team pq-style-2 pq-item-list {{ $loop->first ? 'pq-active' : '' }}">
+                        <div class="pq-team-info">
+
+                            <h5 class="pq-member-name">{{ $speaker->name }}</h5>
+
+                            <span class="pq-team-designation">{{ $speaker->position }}</span>
+
+                            <div class="pq-team-media">
+                                <img decoding="async" src="{{ asset('storage/' . $speaker->image) }}" alt="team-image">
+                            </div>
+
                         </div>
                     </div>
-                       @endforeach
-                </div>
-
+                @endforeach
             </div>
-          
         </div>
     </section>
-
     <section class="pq-breadcrumb-style-1 wow fadeIn">
         <div class="container-fluid">
             <div class="pq-breadcrumb">

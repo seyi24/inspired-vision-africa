@@ -165,11 +165,8 @@
                             <div class="item">
                                 <div class="pq-brand-box">
 
-                                    <img src="{{ asset('storage/' . $partner->image) }}" alt="partner"
-                                        class="pq-client-img">
-                                    <img src="{{ asset('storage/' . $partner->image) }}" alt="partner"
-                                        class="pq-client-hover-img">
-
+                                      <img src="{{ asset('storage/' . $partner->image) }}" alt="partner"
+                                        class="pq-client-img" style="width: 150px" >
                                     <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                         preserveAspectRatio="none">
                                         <path d="M0 0 H 100 V 100 H 0 Z" fill="transparent" stroke="black"
