@@ -14,11 +14,16 @@ class PartnersTable
 {
     public static function configure(Table $table): Table
     {
+        
         return $table
             ->columns([
-                ImageColumn::make('image')
-                    ->disk('public')
-                    ->visibility('public'),
+
+                TextColumn::make('image')
+                    ->searchable()
+                    ->sortable(),
+                ImageColumn::make('image'),
+                    // ->disk('public')
+                    // ->visibility('public'),
 
                 TextColumn::make('created_at')
                     ->dateTime()

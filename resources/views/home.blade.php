@@ -53,7 +53,7 @@
                             data-frame_hover="bgc:rgba(0,0,0,0);boc:rgba(255,255,255,0.75);bor:0px,0px,0px,0px;bos:solid;bow:0px,0px,0px,0px;e:power1.inOut;"
                             style="z-index:11;background-color:rgba(0,0,0,0);font-family:'Roboto';">
                             <a class="pq-button pq-button-flat" href="https://bit.ly/InspiredVisionAfricaReg">
-                                <span class="text">Registration</span>
+                                <span class="text">Register Now</span>
                                 <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
                                     preserveAspectRatio="none">
                                     <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
@@ -338,7 +338,7 @@
             </div>
         </div>
     </section>
-    <section class="pq-speaker-team-section">
+    {{-- <section class="pq-speaker-team-section">
         <div class="container">
             <div class="pq-section-title text-center">
                 <div class="pq-title">
@@ -373,7 +373,7 @@
                 @endforeach
             </div>
         </div>
-    </section>
+    </section> --}}
    
     <section class="pq-portfolio-section">
         <div class="container">

@@ -69,11 +69,11 @@
                 <h2 class="pq-contact-title"> Contact Info </h2>
                 <ul class="pq-contact">
                     <li>
-                        <a href="https://wa.me/225079709084" target="_blank">
+                        <a href="https://wa.me/2250797090846" target="_blank">
                             <div class="pq-icon">
                                 <i class="flaticon-phone-call"></i>
                             </div>
-                            <span>WhatsApp: +225 07 970 9084</span>
+                            <span>WhatsApp: +225 07 970 90846</span>
                         </a>
                     </li>
                     <li>
@@ -191,7 +191,7 @@
                             </div>
                             <div class="pq-phone-number-div ">
                                 <p>Phone No.</p>
-                                <a href="https://wa.me/225079709084" target="_blank">+225 07 970 9084</a>
+                                <a href="https://wa.me/2250797090846" target="_blank">+225 07 970 90846</a>
                             </div>
                         </div>
 

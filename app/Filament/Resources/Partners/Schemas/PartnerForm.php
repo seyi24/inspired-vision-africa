@@ -13,7 +13,7 @@ class PartnerForm
             ->components([
                 FileUpload::make('image')                             
                   ->disk('public')               
-                    // ->directory('partner')         
+                    ->directory('partner')         
                     ->image()                      
                     ->visibility('public')         
                     ->required(),
